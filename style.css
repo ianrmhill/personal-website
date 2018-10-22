@@ -1,0 +1,311 @@
+body {
+	margin: 0px;
+	font-family: "Century Gothic", Helvetica, sans-sarif;
+}
+
+h1 {
+	display: inline;
+	font-size: 950%;
+	color: rgb(180, 120, 80);
+	padding: 0% 5%;
+	vertical-align: middle;
+}
+
+h3 {
+	display: inline-block;
+	float: right;
+	margin: 5% 0%;
+	color: rgb(180, 120, 80);
+	vertical-align: middle;
+	font-size: 250%;
+}
+
+h4 {
+	display: inline-block;
+	color: rgb(180, 120, 80);
+	padding: 0% 3%;
+	padding-top: 2%;
+	margin: 0% 0%;
+}
+
+p {
+	display: inline-block;
+	color: rgb(240, 240, 215);
+	text-indent: false;
+	padding: 0% 0%;
+	vertical-align: middle;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	display: inline;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	width: 16%;
+}
+
+a {
+	color: rgb(240, 240, 215);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(150, 150, 200);
+}
+
+a:visited {
+	color: rgb(240, 240, 215);
+}
+
+.pagelink {
+	padding: 7.5% 0%;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	padding: 12% 0%;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(240, 240, 215);
+}
+
+li a:hover {
+	background-color: rgb(70, 70, 70);
+}
+
+li p {
+	display: block;
+	text-align: center;
+	padding: 0% 0%;
+	text-decoration: none;
+	color: rgb(240, 240, 215);
+}
+
+.active {
+	background-color: rgb(55, 55, 55);
+}
+
+.headbar {
+	position: fixed;
+	background-color: rgb(40, 40, 40);
+	padding-left: 0%;
+	width: 100%;
+	z-index: 2;
+}
+
+.backgroundbio {
+	position: fixed;
+	z-index: -2;
+	background-image: url("Sepia Leaf.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.backgroundexp {
+	position: fixed;
+	z-index: -2;
+	background-image: url("Blue Wood.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.backgroundpro {
+	position: fixed;
+	z-index: -2;
+	background-image: url("Blue Bark.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.backgroundmus {
+	position: fixed;
+	z-index: -2;
+	background-image: url("Ganz Guitar.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.foreground {
+	padding-top: 10%;
+}
+
+.contentbarone {
+	width: 100%;
+	position: relative;
+	float: left;
+	padding: 0px 0px;
+	margin: 7% 0%;
+	display: block;
+	background-color: rgb(0, 0, 0);
+	z-index: 0;
+}
+
+.contentbarone:before {
+	background: inherit;
+	top: 0;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skewY(2.5deg);
+	transform-origin: 100%;
+	z-index: -1;
+}
+
+.contentbarone:after {
+	background: inherit;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skewY(-1.5deg);
+	transform-origin: 100%;
+	z-index: -1;
+}
+
+.contentbartwo {
+	width: 100%;
+	position: relative;
+	float: right;
+	padding: 0px 0px;
+	margin: 7% 0%;
+	display: block;
+	background-color: rgb(0, 0, 0);
+	z-index: 0;
+}
+
+.contentbartwo:before {
+	background: inherit;
+	top: 25%;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skewY(-3deg);
+	transform-origin: -100%;
+	z-index: -1;
+}
+
+.contentbartwo:after {
+	background: inherit;
+	bottom: 5%;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skewY(1deg);
+	transform-origin: -100%;
+	z-index: -1;
+}
+
+.footerbar {
+	width: 100%;
+	position: fixed;
+	float: right;
+	padding: 0px 0px;
+	bottom: 0;
+	margin: 0% 0%;
+	display: block;
+	background-color: rgb(40, 40, 40);
+	z-index: 0;
+}
+
+.footercontent {
+	padding-right: 0%;
+}
+
+.textblockone {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.textblocktwo {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.textblockone p {
+	 width: 60%;
+	 padding: 0% 3%;
+	 padding-top: 3%;
+	 
+}
+
+.textblocktwo p {
+	 width: 60%;
+	 padding: 0% 3%;
+	 padding-top: 3%;
+}
+
+.links p {
+	margin: 0;
+	padding-top: 2%;
+}
+
+.withlinks:before {
+	top: 20%
+}
+
+.withheader p{
+	padding-top: 0%;
+}
+
+.imgleft {
+	display: inline;
+	z-index: 1;
+	vertical-align: middle;
+}
+
+.imgright {
+	display: inline;
+	position: relative;
+	right: 0%;
+	z-index: 1;
+}
+
+.imgright img {
+	padding-right: 5%;
+}
+
+.imgleft img {
+	padding-left: 5%;
+}
+
+.noblock {
+	display: inline;
+	padding: 0% 0%;
+}
+
+.photocredits {
+	font-size: 50%;
+}
