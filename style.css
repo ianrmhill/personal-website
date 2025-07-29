@@ -237,20 +237,15 @@ li p {
 		gap: 20px;
 	}
 	
-	.footerbar li:first-child {
-		display: none;
-	}
-	
 	.social-links-center {
-		flex: none;
-		order: 1;
+		display: none;
 	}
 	
 	.footerbar li:last-child {
 		display: none;
 	}
 	
-	.social-links-center {
+	.email-contact {
 		justify-content: center;
 		flex: none;
 		order: 1;
@@ -407,8 +402,10 @@ li p {
 	height: 60px;
 }
 
-.footerbar li:first-child {
+.email-contact {
 	flex: 1;
+	display: flex;
+	align-items: center;
 }
 
 .social-links-center {
@@ -450,6 +447,18 @@ li p {
 	width: 20px;
 	height: 20px;
 	display: block;
+}
+
+.email-contact-text {
+	color: rgb(240, 240, 215);
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-right: 8px;
+}
+
+.email-link {
+	margin-left: 8px;
 }
 
 .textblockone {
