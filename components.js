@@ -1,3 +1,18 @@
+// Page routing configuration
+const pageRoutes = {
+    'biography': 'index.html',
+    'experience': 'experience.html', 
+    'interests': 'projects.html',
+    'music': 'music.html'
+};
+
+const pageTitles = {
+    'index.html': 'Biography',
+    'experience.html': 'Experience',
+    'projects.html': 'Interests', 
+    'music.html': 'Music'
+};
+
 // Load shared components and set active navigation
 document.addEventListener('DOMContentLoaded', function() {
     // Load header
@@ -6,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(html => {
             document.getElementById('header-placeholder').innerHTML = html;
             setActiveNavigation();
+            setupRouting();
         });
     
     // Load footer
@@ -14,6 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(html => {
             document.getElementById('footer-placeholder').innerHTML = html;
         });
+    
+    // Set initial URL based on current page
+    setInitialUrl();
 });
 
 function setActiveNavigation() {
@@ -26,6 +45,31 @@ function setActiveNavigation() {
             link.classList.add('active');
         }
     });
+}
+
+function setupRouting() {
+    const navLinks = document.querySelectorAll('.headbar a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const href = this.getAttribute('href');
+            const title = pageTitles[href];
+            if (title) {
+                const route = title.toLowerCase();
+                history.pushState({page: href}, title, '#' + route);
+                window.location.href = href;
+            }
+        });
+    });
+}
+
+function setInitialUrl() {
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const title = pageTitles[currentPage];
+    if (title && !window.location.hash) {
+        const route = title.toLowerCase();
+        history.replaceState({page: currentPage}, title, '#' + route);
+    }
 }
 
 function toggleMobileMenu() {
