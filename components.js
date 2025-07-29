@@ -78,6 +78,15 @@ function loadPage(route) {
                 contentPlaceholder.innerHTML = html;
                 // Update page title
                 document.title = `Ian Hill - ${route.charAt(0).toUpperCase() + route.slice(1)}`;
+                
+                // Execute any scripts in the loaded component
+                const scripts = contentPlaceholder.querySelectorAll('script');
+                scripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    newScript.textContent = script.textContent;
+                    document.head.appendChild(newScript);
+                    document.head.removeChild(newScript);
+                });
             })
             .catch(error => {
                 console.error('Error loading page:', error);
@@ -102,6 +111,97 @@ function updateActiveNavigation(currentRoute) {
 function toggleMobileMenu() {
     const dropdown = document.getElementById('mobile-dropdown');
     dropdown.classList.toggle('show');
+}
+
+// Content component loader
+async function loadContentBox(type, config) {
+    const componentFile = `components/content-box-${type}.html`;
+    
+    try {
+        const response = await fetch(componentFile);
+        const html = await response.text();
+        
+        // Create a temporary container to manipulate the HTML
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        
+        // Find elements and populate with config data
+        const component = tempDiv.querySelector(`[data-component="content-box-${type}"]`);
+        
+        // Set header content
+        const headerEl = component.querySelector('[data-content="header"]');
+        if (config.header) {
+            headerEl.innerHTML = `<h4>${config.header}</h4>`;
+        } else {
+            headerEl.remove();
+        }
+        
+        // Set text content
+        const textEl = component.querySelector('[data-content="text"]');
+        textEl.innerHTML = config.text;
+        
+        return component.outerHTML;
+    } catch (error) {
+        console.error('Error loading content box:', error);
+        return '<div>Error loading content</div>';
+    }
+}
+
+// Image component loader
+async function loadContentImage(config) {
+    const componentFile = `components/content-image.html`;
+    
+    try {
+        const response = await fetch(componentFile);
+        const html = await response.text();
+        
+        // Create a temporary container to manipulate the HTML
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        
+        // Find elements and populate with config data
+        const component = tempDiv.querySelector(`[data-component="content-image"]`);
+        const img = component.querySelector('img');
+        
+        img.src = config.src;
+        img.alt = config.alt || '';
+        
+        return component.outerHTML;
+    } catch (error) {
+        console.error('Error loading content image:', error);
+        return '<div>Error loading image</div>';
+    }
+}
+
+// Full-width content box loader
+async function loadFullWidthBox(config) {
+    const componentFile = `components/full-width-box.html`;
+    
+    try {
+        const response = await fetch(componentFile);
+        const html = await response.text();
+        
+        // Create a temporary container to manipulate the HTML
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        
+        // Find elements and populate with config data
+        const component = tempDiv.querySelector(`[data-component="full-width-box"]`);
+        
+        // Set text content
+        const textEl = component.querySelector('[data-content="text"]');
+        textEl.innerHTML = config.text;
+        
+        // Set image
+        const imgEl = component.querySelector('[data-content="image"] img');
+        imgEl.src = config.image.src;
+        imgEl.alt = config.image.alt || '';
+        
+        return component.outerHTML;
+    } catch (error) {
+        console.error('Error loading full-width box:', error);
+        return '<div>Error loading content</div>';
+    }
 }
 
 // Email obfuscation function

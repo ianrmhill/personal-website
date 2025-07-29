@@ -1,32 +1,35 @@
 <div class="backgroundbio"></div>
-<div class="foreground">
-	<div class="contentbarone">
-		<div>
-			<h1>Ian Hill</h1>
-		</div>
-	</div>
-	<div class="contentbartwo">
-		<div class="textblocktwo">
-			<p>Currently studying at the University of Waterloo, Ian Hill is working towards his undergraduate degree in Electrical Engineering. There he is heavily involved in the Waterloo Engineering Society and the Waterloo Aerial Robotics Group, practicing his classical guitar and working on personal projects in his spare time.</p>	
-			<div class="imgright">
-				<img src="images/Ian Hill Headshot.jpg" align="right" width="20%" height="15%">
-			</div>
-		</div>
-	</div>
-	<div class="contentbarone">
-		<div class="textblockone">
-			<p>Born in Vancouver, British Columbia in 1997, Ian Hill lived in the False Creek area for the first 18 years of his life, attending False Creek Elementary and Point Grey Secondary. At Point Grey, Ian also had the privilege of being accepted into the Point Grey Mini enrichment program, which gave him the opportunity to go on incredible trips to Bamfield marine science station, Strathcona national park, Manning Park ski resort, and the chance to organize large events for the school.</p>	
-			<div class="imgleft">
-				<img src="images/Little Ian.jpg" align="left" width="20%" height="16%">
-			</div>
-		</div>
-	</div>
-	<div class="contentbartwo">
-		<div class="textblocktwo">
-			<p>Thanks to his parents, Ian had the opportunity to develop his skills and hobbies from a young age, and began classical guitar and league soccer at the age of 6, dinghy sailing at 9, trumpet at 12, and scuba diving at the age of 17. His father Simon also introduced him to magnetism, simple circuits, Lego, and handywork at a very young age, fostering a love of design and science.</p>	
-			<div class="imgright">
-				<img src="images/Grad With Parents.jpg" align="right" width="25%" height="20%">
-			</div>
-		</div>
-	</div>
+<div class="foreground" id="biography-content">
+	<!-- Content will be dynamically loaded -->
 </div>
+
+<script>
+// Load biography content immediately when this component is loaded
+(async function() {
+    const contentContainer = document.getElementById('biography-content');
+    if (contentContainer) {
+        const content = await loadBiographyContent();
+        contentContainer.innerHTML = content;
+    }
+})();
+
+async function loadBiographyContent() {
+    let html = '';
+    
+    // Add sample full-width content box
+    html += await loadFullWidthBox({
+        text: `
+            <h2>Welcome to My Story</h2>
+            <p>This is a demonstration of the new full-width content box design. The text flows naturally alongside the image, creating an engaging layout that spans the entire width of the browser window.</p>
+            <p>The angled edges give it a modern, dynamic appearance while the semi-transparent background ensures readability over any background image. This design works perfectly for showcasing content with accompanying visuals.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        `,
+        image: {
+            src: 'images/Ian Hill Headshot.jpg',
+            alt: 'Sample image for demonstration'
+        }
+    });
+    
+    return html;
+}
+</script>

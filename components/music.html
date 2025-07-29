@@ -1,31 +1,61 @@
 <div class="backgroundmus"></div>
-<div class="foreground">
-	<div class="contentbartwo withlinks">
-		<div class="textblocktwo">
-			<p>Ian has been playing classical guitar since he was 6 years old, and has had the opportunity to study under <a href="http://michaelstrutt.ca/">Michael Strutt</a> and <a href="http://www.danielbolshoy.com/">Daniel Bolshoy</a>. He has performed in masterclasses for classical guitarists such as <a href="http://www.sergioassad.com/">Sergio Assad</a>, <a href="http://www.davidrussellguitar.com/">David Russell</a>, and <a href="http://zerosoundsproduction.com/en/page/scott-tennant/">Scott Tennant</a>. Ian has also competed at the Guitar Foundation of America competition multiple times, and regularly plays for university and community events.</p>	
-			<div class="imgright">
-				<img src="images/Ian Playing Guitar.jpg" align="right" width="25%" height="20%">
-			</div>
-			<p>Recordings:</p>
-			<p><a href="https://www.dropbox.com/s/isa6iz8j967j07y/Farewell.mp3?dl=0">Farewell by Sergio Assad</a></p>
-			<p><a href="https://www.dropbox.com/s/xexn434mp3c75c9/Remembrance.mp3?dl=0">Remembrance by Sergio Assad</a></p>
-			<p><a href="https://www.dropbox.com/s/89wc79nxwtgd4m6/Milonga.mp3?dl=0">Milonga by Maximo Diego Pujol</a></p>
-		</div>
-	</div>
-	<div class="contentbarone">
-		<div class="textblockone">
-			<p>In high school Ian was heavily involved in the music department, playing in the symphonic band, jazz band, jazz combo, and chamber choir ensembles. These ensembles went to a number of festivals, and Ian got to go to locations such as Banff, Seattle, and Loon Lake for performances, and to mentor younger students.</p>	
-			<div class="imgleft">
-				<img src="images/Jazz Band A.jpg" align="left" width="25%" height="20%">
-			</div>
-		</div>
-	</div>
-	<div class="contentbartwo">
-		<div class="textblocktwo">
-			<p>Some of the music awards Ian has received include the Darren Paul Jacobsen scholarship for excellence in music from Point Grey Secondary, earning second place in Vancouver at the Kiwanis youth guitar competition in 2014, and first in the Kiwanis jazz ensemble division with the Point Grey Jazz Band A in the same year. Recently, Coastal Jazz produced a professional recording of this jazz band, a video spotlight can be found <a href="https://youtu.be/gWuW9aRMno4">here</a>.</p>	
-			<div class="imgright">
-				<img src="images/Prom Trumpet.jpg" align="right" width="25%" height="20%">
-			</div>
-		</div>
-	</div>
+<div class="foreground" id="music-content">
+	<!-- Content will be dynamically loaded -->
 </div>
+
+<script>
+// Load music content immediately when this component is loaded
+(async function() {
+    const contentContainer = document.getElementById('music-content');
+    if (contentContainer) {
+        const content = await loadMusicContent();
+        contentContainer.innerHTML = content;
+    }
+})();
+
+async function loadMusicContent() {
+    const sections = [
+        {
+            type: 'two',
+            config: {
+                classModifier: 'withlinks',
+                text: '<p>Ian has been playing classical guitar since he was 6 years old, and has had the opportunity to study under <a href="http://michaelstrutt.ca/">Michael Strutt</a> and <a href="http://www.danielbolshoy.com/">Daniel Bolshoy</a>. He has performed in masterclasses for classical guitarists such as <a href="http://www.sergioassad.com/">Sergio Assad</a>, <a href="http://www.davidrussellguitar.com/">David Russell</a>, and <a href="http://zerosoundsproduction.com/en/page/scott-tennant/">Scott Tennant</a>. Ian has also competed at the Guitar Foundation of America competition multiple times, and regularly plays for university and community events.</p><p>Recordings:</p><p><a href="https://www.dropbox.com/s/isa6iz8j967j07y/Farewell.mp3?dl=0">Farewell by Sergio Assad</a></p><p><a href="https://www.dropbox.com/s/xexn434mp3c75c9/Remembrance.mp3?dl=0">Remembrance by Sergio Assad</a></p><p><a href="https://www.dropbox.com/s/89wc79nxwtgd4m6/Milonga.mp3?dl=0">Milonga by Maximo Diego Pujol</a></p>',
+                image: {
+                    src: 'images/Ian Playing Guitar.jpg',
+                    width: '25%',
+                    height: '20%'
+                }
+            }
+        },
+        {
+            type: 'one',
+            config: {
+                text: '<p>In high school Ian was heavily involved in the music department, playing in the symphonic band, jazz band, jazz combo, and chamber choir ensembles. These ensembles went to a number of festivals, and Ian got to go to locations such as Banff, Seattle, and Loon Lake for performances, and to mentor younger students.</p>',
+                image: {
+                    src: 'images/Jazz Band A.jpg',
+                    width: '25%',
+                    height: '20%'
+                }
+            }
+        },
+        {
+            type: 'two',
+            config: {
+                text: '<p>Some of the music awards Ian has received include the Darren Paul Jacobsen scholarship for excellence in music from Point Grey Secondary, earning second place in Vancouver at the Kiwanis youth guitar competition in 2014, and first in the Kiwanis jazz ensemble division with the Point Grey Jazz Band A in the same year. Recently, Coastal Jazz produced a professional recording of this jazz band, a video spotlight can be found <a href="https://youtu.be/gWuW9aRMno4">here</a>.</p>',
+                image: {
+                    src: 'images/Prom Trumpet.jpg',
+                    width: '25%',
+                    height: '20%'
+                }
+            }
+        }
+    ];
+    
+    let html = '';
+    for (const section of sections) {
+        html += await loadContentBox(section.type, section.config);
+    }
+    
+    return html;
+}
+</script>
