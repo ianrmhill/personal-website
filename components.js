@@ -37,9 +37,11 @@ async function loadSiteContent() {
         const yamlText = await response.text();
         siteContent = jsyaml.load(yamlText);
         
-        // Build routes from YAML keys
+        // Build routes from YAML keys (exclude Home from routes as it's the default)
         Object.keys(siteContent).forEach(key => {
-            routes[key.toLowerCase()] = key;
+            if (key !== 'Home') {
+                routes[key.toLowerCase()] = key;
+            }
         });
         
         console.log('Site content loaded:', siteContent);
@@ -60,8 +62,10 @@ function generateNavigation() {
     const existingLinks = navList.querySelectorAll('li:nth-child(n+3)');
     existingLinks.forEach(link => link.remove());
     
-    // Add new navigation links
+    // Add new navigation links (exclude 'Home')
     Object.keys(siteContent).forEach(pageName => {
+        if (pageName === 'Home') return; // Skip Home from navigation
+        
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = `/${pageName.toLowerCase()}`;
@@ -70,11 +74,13 @@ function generateNavigation() {
         navList.appendChild(li);
     });
     
-    // Update mobile navigation too
+    // Update mobile navigation too (exclude 'Home')
     const mobileDropdown = document.getElementById('mobile-dropdown');
     if (mobileDropdown) {
         mobileDropdown.innerHTML = '';
         Object.keys(siteContent).forEach(pageName => {
+            if (pageName === 'Home') return; // Skip Home from navigation
+            
             const a = document.createElement('a');
             a.href = `/${pageName.toLowerCase()}`;
             a.textContent = pageName;
@@ -86,6 +92,16 @@ function generateNavigation() {
 function setupNavigation() {
     const navLinks = document.querySelectorAll('.headbar a');
     navLinks.forEach(link => {
+        // Skip the name links - let them behave as normal links
+        const isDesktopNameLink = link.closest('li:first-child');
+        const isMobileNameLink = link.closest('.mobile-nav') && link.querySelector('h3');
+        const isNameLink = link.textContent.trim() === 'Ian Hill';
+        
+        if (isDesktopNameLink || isMobileNameLink || isNameLink) {
+            console.log('Skipping name link:', link.textContent);
+            return;
+        }
+        
         link.addEventListener('click', function(e) {
             e.preventDefault();
             const route = this.textContent.toLowerCase();
@@ -111,10 +127,9 @@ function handleRoute() {
     const path = window.location.pathname;
     let route = path.substring(1); // Remove leading slash
     
-    // Handle root path - default to first page in content
+    // Handle root path - default to Home
     if (route === '' || route === 'index.html') {
-        const firstPage = Object.keys(siteContent)[0];
-        route = firstPage ? firstPage.toLowerCase() : 'biography';
+        route = 'home';
     }
     
     loadPage(route);
@@ -123,7 +138,12 @@ function handleRoute() {
 
 async function loadPage(route) {
     const contentPlaceholder = document.getElementById('content-placeholder');
-    const pageName = routes[route];
+    let pageName = routes[route];
+    
+    // Special case for home route
+    if (route === 'home') {
+        pageName = 'Home';
+    }
     
     if (!pageName || !siteContent[pageName]) {
         contentPlaceholder.innerHTML = '<p>Page not found</p>';
@@ -162,7 +182,7 @@ async function generatePageContent(contentItems) {
         const config = {
             text: generateContentText(item),
             image: item.image ? {
-                src: `images/${item.image}.jpg`,
+                src: await getImagePath(item.image),
                 alt: item.heading || ''
             } : null
         };
@@ -178,15 +198,43 @@ async function generatePageContent(contentItems) {
     return content;
 }
 
+// Function to detect correct image extension
+async function getImagePath(imageName) {
+    const extensions = ['jpg', 'png', 'jpeg'];
+    
+    for (const ext of extensions) {
+        const imagePath = `images/${imageName}.${ext}`;
+        try {
+            const response = await fetch(imagePath, { method: 'HEAD' });
+            if (response.ok) {
+                return imagePath;
+            }
+        } catch (error) {
+            // Continue to next extension
+        }
+    }
+    
+    // Fallback to .jpg if nothing found
+    return `images/${imageName}.jpg`;
+}
+
 function generateContentText(item) {
     let text = '';
     if (item.heading) {
         text += `<h2>${item.heading}</h2>`;
     }
     if (item.text) {
-        // Convert line breaks to paragraphs
-        const paragraphs = item.text.split('\n').filter(p => p.trim());
-        text += paragraphs.map(p => `<p>${p}</p>`).join('');
+        // Simple approach: convert newlines directly to HTML line breaks, then wrap in paragraph  
+        let processedText = item.text.trim();
+        
+        // Convert "CV" to downloadable link
+        processedText = processedText.replace(/\bCV\b/g, '<a href="artifacts/CV.pdf" target="_blank" download>CV</a>');
+        
+        // Convert newlines to HTML line breaks with extra spacing
+        processedText = processedText.replace(/\n/g, '<br><br>');
+        
+        // Wrap the entire content in a single paragraph
+        text += `<p>${processedText}</p>`;
     }
     return text;
 }

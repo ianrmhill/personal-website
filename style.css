@@ -111,6 +111,19 @@ a:visited {
 	color: rgb(240, 240, 215);
 }
 
+/* CV download links styling */
+.content-text-section a[download],
+.floating-text a[download] {
+	color: rgb(180, 120, 80);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.content-text-section a[download]:hover,
+.floating-text a[download]:hover {
+	color: rgb(200, 140, 100);
+}
+
 
 .headbar li:first-child {
 	margin-right: auto;
@@ -293,6 +306,10 @@ li p {
 		justify-content: center;
 		height: 60px;
 		padding: 0 12.5%;
+	}
+	
+	.email-contact-text {
+		display: none;
 	}
 }
 
