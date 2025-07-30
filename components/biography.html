@@ -30,6 +30,20 @@ async function loadBiographyContent() {
         }
     });
     
+    // Add sample alternate full-width content box
+    html += await loadFullWidthBoxAlt({
+        text: `
+            <h2>Alternative Design</h2>
+            <p>This is the second version of the full-width content box, featuring opposite angular cuts. Notice how the angles now slope in the reverse direction, creating visual variety and rhythm when multiple boxes are used together.</p>
+            <p>The alternating angles create a dynamic zigzag effect that guides the eye down the page while maintaining the same high-quality readability and visual appeal. This design system allows for rich, engaging storytelling.</p>
+            <p>Both versions share the same internal layout and styling, differing only in their angular orientation to create visual interest and movement across the page layout.</p>
+        `,
+        image: {
+            src: 'images/Little Ian.jpg',
+            alt: 'Alternative sample image'
+        }
+    });
+    
     return html;
 }
 </script>

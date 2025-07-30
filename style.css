@@ -520,8 +520,7 @@ h1.floating-title {
 	margin-left: calc(-50vw + 50%);
 	margin-top: 80px;
 	margin-bottom: 80px;
-	background: rgba(15, 15, 15, 0.85);
-	backdrop-filter: blur(15px);
+	background: rgba(15, 15, 15, 0.65);
 	border-top: 1px solid rgba(240, 240, 215, 0.15);
 	border-bottom: 1px solid rgba(240, 240, 215, 0.15);
 	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
@@ -533,29 +532,29 @@ h1.floating-title {
 	align-items: center;
 	max-width: 1400px;
 	margin: 0 auto;
-	padding: 80px 60px;
+	padding: 100px 60px;
 	gap: 60px;
 }
 
 .content-text-section {
 	flex: 1;
 	color: rgb(240, 240, 215);
-	font-size: 18px;
-	line-height: 1.8;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 1.6;
 }
 
 .content-text-section h2 {
 	color: rgb(180, 120, 80);
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 600;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 	letter-spacing: 1px;
-	margin: 0 0 24px 0;
+	margin: 0 0 20px 0;
 }
 
 .content-text-section p {
-	margin: 0 0 20px 0;
+	margin: 0 0 16px 0;
 	padding: 0;
 }
 
@@ -567,7 +566,19 @@ h1.floating-title {
 	width: 100%;
 	height: auto;
 	border-radius: 12px;
-	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
 	border: 2px solid rgba(240, 240, 215, 0.2);
+}
+
+.full-width-content-box-alt {
+	position: relative;
+	width: 100vw;
+	margin-left: calc(-50vw + 50%);
+	margin-top: 80px;
+	margin-bottom: 80px;
+	background: rgba(15, 15, 15, 0.65);
+	border-top: 1px solid rgba(240, 240, 215, 0.15);
+	border-bottom: 1px solid rgba(240, 240, 215, 0.15);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+	clip-path: polygon(0 0%, 100% 15%, 100% 85%, 0 100%);
 }
 
