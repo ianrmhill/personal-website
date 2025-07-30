@@ -1,34 +1,87 @@
-// Page routing configuration
-const routes = {
-    'biography': 'components/biography.html',
-    'experience': 'components/experience.html', 
-    'interests': 'components/interests.html',
-    'music': 'components/music.html'
-};
+// Global content store
+let siteContent = null;
+let routes = {};
 
 // Load shared components and set up routing
 document.addEventListener('DOMContentLoaded', function() {
-    // Load header
-    fetch('components/header.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('header-placeholder').innerHTML = html;
-            setupNavigation();
-        });
-    
-    // Load footer
-    fetch('components/footer.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('footer-placeholder').innerHTML = html;
-        });
-    
-    // Handle initial route
-    handleRoute();
-    
-    // Listen for popstate events (back/forward buttons)
-    window.addEventListener('popstate', handleRoute);
+    // Load content.yaml first
+    loadSiteContent().then(() => {
+        // Load header
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-placeholder').innerHTML = html;
+                generateNavigation();
+                setupNavigation();
+            });
+        
+        // Load footer
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('footer-placeholder').innerHTML = html;
+            });
+        
+        // Handle initial route
+        handleRoute();
+        
+        // Listen for popstate events (back/forward buttons)
+        window.addEventListener('popstate', handleRoute);
+    });
 });
+
+// Load and parse YAML content
+async function loadSiteContent() {
+    try {
+        const response = await fetch('content.yaml');
+        const yamlText = await response.text();
+        siteContent = jsyaml.load(yamlText);
+        
+        // Build routes from YAML keys
+        Object.keys(siteContent).forEach(key => {
+            routes[key.toLowerCase()] = key;
+        });
+        
+        console.log('Site content loaded:', siteContent);
+        console.log('Routes generated:', routes);
+    } catch (error) {
+        console.error('Error loading site content:', error);
+        // Fallback to empty content
+        siteContent = {};
+    }
+}
+
+// Generate navigation menu from YAML content
+function generateNavigation() {
+    const navList = document.querySelector('.headbar .desktop-nav');
+    if (!navList || !siteContent) return;
+    
+    // Find the navigation links container (skip the name element)
+    const existingLinks = navList.querySelectorAll('li:nth-child(n+3)');
+    existingLinks.forEach(link => link.remove());
+    
+    // Add new navigation links
+    Object.keys(siteContent).forEach(pageName => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `/${pageName.toLowerCase()}`;
+        a.textContent = pageName;
+        li.appendChild(a);
+        navList.appendChild(li);
+    });
+    
+    // Update mobile navigation too
+    const mobileDropdown = document.getElementById('mobile-dropdown');
+    if (mobileDropdown) {
+        mobileDropdown.innerHTML = '';
+        Object.keys(siteContent).forEach(pageName => {
+            const a = document.createElement('a');
+            a.href = `/${pageName.toLowerCase()}`;
+            a.textContent = pageName;
+            mobileDropdown.appendChild(a);
+        });
+    }
+}
 
 function setupNavigation() {
     const navLinks = document.querySelectorAll('.headbar a');
@@ -56,45 +109,86 @@ function navigateTo(route) {
 
 function handleRoute() {
     const path = window.location.pathname;
-    let route = path.substring(1) || 'biography'; // Remove leading slash, default to biography
+    let route = path.substring(1); // Remove leading slash
     
-    // Handle root path
+    // Handle root path - default to first page in content
     if (route === '' || route === 'index.html') {
-        route = 'biography';
+        const firstPage = Object.keys(siteContent)[0];
+        route = firstPage ? firstPage.toLowerCase() : 'biography';
     }
     
     loadPage(route);
     updateActiveNavigation(route);
 }
 
-function loadPage(route) {
+async function loadPage(route) {
     const contentPlaceholder = document.getElementById('content-placeholder');
-    const componentFile = routes[route];
+    const pageName = routes[route];
     
-    if (componentFile) {
-        fetch(componentFile)
-            .then(response => response.text())
-            .then(html => {
-                contentPlaceholder.innerHTML = html;
-                // Update page title
-                document.title = `Ian Hill - ${route.charAt(0).toUpperCase() + route.slice(1)}`;
-                
-                // Execute any scripts in the loaded component
-                const scripts = contentPlaceholder.querySelectorAll('script');
-                scripts.forEach(script => {
-                    const newScript = document.createElement('script');
-                    newScript.textContent = script.textContent;
-                    document.head.appendChild(newScript);
-                    document.head.removeChild(newScript);
-                });
-            })
-            .catch(error => {
-                console.error('Error loading page:', error);
-                contentPlaceholder.innerHTML = '<p>Page not found</p>';
-            });
-    } else {
+    if (!pageName || !siteContent[pageName]) {
         contentPlaceholder.innerHTML = '<p>Page not found</p>';
+        return;
     }
+    
+    // Update page title
+    document.title = `Ian Hill - ${pageName}`;
+    
+    // Generate page content
+    try {
+        const pageContent = await generatePageContent(siteContent[pageName]);
+        contentPlaceholder.innerHTML = pageContent;
+        
+        // Set dynamic background image based on page name
+        const backgroundElement = document.getElementById('dynamic-background');
+        if (backgroundElement) {
+            // Use the original pageName case to match image files
+            backgroundElement.style.backgroundImage = `url('images/${pageName}.jpg')`;
+            console.log(`Setting background image: images/${pageName}.jpg`);
+        }
+    } catch (error) {
+        console.error('Error generating page content:', error);
+        contentPlaceholder.innerHTML = '<p>Error loading page content</p>';
+    }
+}
+
+async function generatePageContent(contentItems) {
+    const foregroundDiv = '<div class="foreground">';
+    let content = foregroundDiv;
+    
+    for (let i = 0; i < contentItems.length; i++) {
+        const item = contentItems[i];
+        const isAlt = i % 2 === 1; // Alternate between variants
+        
+        const config = {
+            text: generateContentText(item),
+            image: item.image ? {
+                src: `images/${item.image}.jpg`,
+                alt: item.heading || ''
+            } : null
+        };
+        
+        if (isAlt) {
+            content += await loadFullWidthBoxAlt(config);
+        } else {
+            content += await loadFullWidthBox(config);
+        }
+    }
+    
+    content += '</div>';
+    return content;
+}
+
+function generateContentText(item) {
+    let text = '';
+    if (item.heading) {
+        text += `<h2>${item.heading}</h2>`;
+    }
+    if (item.text) {
+        // Convert line breaks to paragraphs
+        const paragraphs = item.text.split('\n').filter(p => p.trim());
+        text += paragraphs.map(p => `<p>${p}</p>`).join('');
+    }
+    return text;
 }
 
 function updateActiveNavigation(currentRoute) {
@@ -189,7 +283,7 @@ async function loadFullWidthBox(config) {
         const component = tempDiv.querySelector(`[data-component="full-width-box"]`);
         
         // Generate unique random angles based on content hash
-        const contentHash = simpleHash(config.text + config.image.src);
+        const contentHash = simpleHash(config.text + (config.image ? config.image.src : 'no-image'));
         const topLeft = 15 + ((contentHash % 100) / 100) * 10 - 5; // 10-20%
         const topRight = 0 + ((Math.floor(contentHash / 100) % 100) / 100) * 10 - 5; // -5-5%
         const bottomRight = 100; // Keep at 100%
@@ -204,9 +298,15 @@ async function loadFullWidthBox(config) {
         textEl.innerHTML = config.text;
         
         // Set image
-        const imgEl = component.querySelector('[data-content="image"] img');
-        imgEl.src = config.image.src;
-        imgEl.alt = config.image.alt || '';
+        const imageSection = component.querySelector('[data-content="image"]');
+        if (config.image) {
+            const imgEl = imageSection.querySelector('img');
+            imgEl.src = config.image.src;
+            imgEl.alt = config.image.alt || '';
+        } else {
+            // Hide image section if no image provided
+            imageSection.style.display = 'none';
+        }
         
         return component.outerHTML;
     } catch (error) {
@@ -231,7 +331,7 @@ async function loadFullWidthBoxAlt(config) {
         const component = tempDiv.querySelector(`[data-component="full-width-box-alt"]`);
         
         // Generate unique random angles based on content hash (different seed for alt)
-        const contentHash = simpleHash(config.text + config.image.src + 'alt');
+        const contentHash = simpleHash(config.text + (config.image ? config.image.src : 'no-image') + 'alt');
         const topLeft = 0 + ((contentHash % 100) / 100) * 10 - 5; // -5-5%
         const topRight = 15 + ((Math.floor(contentHash / 100) % 100) / 100) * 10 - 5; // 10-20%
         const bottomRight = 85 + ((Math.floor(contentHash / 10000) % 100) / 100) * 10 - 5; // 80-90%
@@ -246,9 +346,15 @@ async function loadFullWidthBoxAlt(config) {
         textEl.innerHTML = config.text;
         
         // Set image
-        const imgEl = component.querySelector('[data-content="image"] img');
-        imgEl.src = config.image.src;
-        imgEl.alt = config.image.alt || '';
+        const imageSection = component.querySelector('[data-content="image"]');
+        if (config.image) {
+            const imgEl = imageSection.querySelector('img');
+            imgEl.src = config.image.src;
+            imgEl.alt = config.image.alt || '';
+        } else {
+            // Hide image section if no image provided
+            imageSection.style.display = 'none';
+        }
         
         return component.outerHTML;
     } catch (error) {
