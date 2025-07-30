@@ -184,6 +184,13 @@ async function generatePageContent(contentItems) {
             image: item.image ? {
                 src: await getImagePath(item.image),
                 alt: item.heading || ''
+            } : null,
+            audio: item.audio ? {
+                src: await getAudioPath(item.audio),
+                name: item.audio
+            } : null,
+            spotify: item.spotify ? {
+                src: item.spotify
             } : null
         };
         
@@ -216,6 +223,26 @@ async function getImagePath(imageName) {
     
     // Fallback to .jpg if nothing found
     return `images/${imageName}.jpg`;
+}
+
+// Function to detect correct audio extension
+async function getAudioPath(audioName) {
+    const extensions = ['flac', 'mp3', 'wav', 'ogg', 'aac'];
+    
+    for (const ext of extensions) {
+        const audioPath = `artifacts/${audioName}.${ext}`;
+        try {
+            const response = await fetch(audioPath, { method: 'HEAD' });
+            if (response.ok) {
+                return audioPath;
+            }
+        } catch (error) {
+            // Continue to next extension
+        }
+    }
+    
+    // Fallback to .mp3 if nothing found
+    return `artifacts/${audioName}.mp3`;
 }
 
 function generateContentText(item) {
@@ -356,6 +383,64 @@ async function loadFullWidthBox(config) {
             imageSection.style.display = 'none';
         }
         
+        // Set audio
+        const audioSection = component.querySelector('[data-content="audio"]');
+        if (config.audio) {
+            const audioEl = audioSection.querySelector('audio');
+            const sourceEl = audioEl.querySelector('source');
+            sourceEl.src = config.audio.src;
+            
+            // Set MIME type based on file extension
+            const extension = config.audio.src.split('.').pop().toLowerCase();
+            const mimeTypes = {
+                'flac': 'audio/flac',
+                'mp3': 'audio/mpeg',
+                'wav': 'audio/wav',
+                'ogg': 'audio/ogg',
+                'aac': 'audio/aac'
+            };
+            sourceEl.type = mimeTypes[extension] || 'audio/mpeg';
+            
+            audioSection.style.display = 'block';
+        } else {
+            // Keep audio section hidden if no audio provided
+            audioSection.style.display = 'none';
+        }
+        
+        // Set Spotify
+        const spotifySection = component.querySelector('[data-content="spotify"]');
+        if (config.spotify) {
+            const iframeEl = spotifySection.querySelector('iframe');
+            // Try using track embed URL structure without album art
+            let spotifyUrl = config.spotify.src;
+            // Convert to compact track embed format
+            if (spotifyUrl.includes('/track/')) {
+                spotifyUrl = spotifyUrl.replace('/embed/track/', '/embed/track/');
+                if (spotifyUrl.includes('?')) {
+                    spotifyUrl = spotifyUrl.split('?')[0];
+                }
+                spotifyUrl += '?utm_source=generator&theme=0&view=coverart';
+            }
+            iframeEl.src = spotifyUrl;
+            spotifySection.style.display = 'block';
+        } else {
+            // Keep Spotify section hidden if no Spotify provided
+            spotifySection.style.display = 'none';
+        }
+        
+        // Adjust layout if no media is present
+        const mediaSection = component.querySelector('.content-media-section');
+        if (!config.image && !config.audio && !config.spotify) {
+            // No media at all, hide media section
+            mediaSection.style.display = 'none';
+            const innerDiv = component.querySelector('.full-width-inner');
+            innerDiv.classList.add('no-media-layout');
+        } else if (!config.image) {
+            // No image but has audio/spotify, hide image section
+            const imageSection = component.querySelector('.content-image-section');
+            imageSection.style.display = 'none';
+        }
+        
         return component.outerHTML;
     } catch (error) {
         console.error('Error loading full-width box:', error);
@@ -401,6 +486,64 @@ async function loadFullWidthBoxAlt(config) {
             imgEl.alt = config.image.alt || '';
         } else {
             // Hide image section if no image provided
+            imageSection.style.display = 'none';
+        }
+        
+        // Set audio
+        const audioSection = component.querySelector('[data-content="audio"]');
+        if (config.audio) {
+            const audioEl = audioSection.querySelector('audio');
+            const sourceEl = audioEl.querySelector('source');
+            sourceEl.src = config.audio.src;
+            
+            // Set MIME type based on file extension
+            const extension = config.audio.src.split('.').pop().toLowerCase();
+            const mimeTypes = {
+                'flac': 'audio/flac',
+                'mp3': 'audio/mpeg',
+                'wav': 'audio/wav',
+                'ogg': 'audio/ogg',
+                'aac': 'audio/aac'
+            };
+            sourceEl.type = mimeTypes[extension] || 'audio/mpeg';
+            
+            audioSection.style.display = 'block';
+        } else {
+            // Keep audio section hidden if no audio provided
+            audioSection.style.display = 'none';
+        }
+        
+        // Set Spotify
+        const spotifySection = component.querySelector('[data-content="spotify"]');
+        if (config.spotify) {
+            const iframeEl = spotifySection.querySelector('iframe');
+            // Try using track embed URL structure without album art
+            let spotifyUrl = config.spotify.src;
+            // Convert to compact track embed format
+            if (spotifyUrl.includes('/track/')) {
+                spotifyUrl = spotifyUrl.replace('/embed/track/', '/embed/track/');
+                if (spotifyUrl.includes('?')) {
+                    spotifyUrl = spotifyUrl.split('?')[0];
+                }
+                spotifyUrl += '?utm_source=generator&theme=0&view=coverart';
+            }
+            iframeEl.src = spotifyUrl;
+            spotifySection.style.display = 'block';
+        } else {
+            // Keep Spotify section hidden if no Spotify provided
+            spotifySection.style.display = 'none';
+        }
+        
+        // Adjust layout if no media is present
+        const mediaSection = component.querySelector('.content-media-section');
+        if (!config.image && !config.audio && !config.spotify) {
+            // No media at all, hide media section
+            mediaSection.style.display = 'none';
+            const innerDiv = component.querySelector('.full-width-inner');
+            innerDiv.classList.add('no-media-layout');
+        } else if (!config.image) {
+            // No image but has audio/spotify, hide image section
+            const imageSection = component.querySelector('.content-image-section');
             imageSection.style.display = 'none';
         }
         

@@ -1,7 +1,18 @@
 <div class="full-width-content-box-alt" data-component="full-width-box-alt">
 	<div class="full-width-inner">
-		<div class="content-image-section" data-content="image">
-			<img data-src="" data-alt="">
+		<div class="content-media-section">
+			<div class="content-image-section" data-content="image">
+				<img data-src="" data-alt="">
+			</div>
+			<div class="content-audio-section" data-content="audio" style="display: none;">
+				<audio controls class="content-audio-player">
+					<source data-src="" data-type="">
+					Your browser does not support the audio element.
+				</audio>
+			</div>
+			<div class="content-spotify-section" data-content="spotify" style="display: none;">
+				<iframe data-src="" width="400" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-embed"></iframe>
+			</div>
 		</div>
 		<div class="content-text-section" data-content="text"></div>
 	</div>

@@ -539,6 +539,20 @@ h1.floating-title {
 	gap: 60px;
 }
 
+/* Content media section layout */
+.content-media-section {
+	flex: 0 0 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* No media layout - text fills full width */
+.no-media-layout .content-text-section {
+	flex: 1;
+	text-align: center;
+}
+
 .content-text-section {
 	flex: 1;
 	color: rgb(240, 240, 215);
@@ -564,7 +578,7 @@ h1.floating-title {
 }
 
 .content-image-section {
-	flex: 0 0 400px;
+	flex: none;
 }
 
 .content-image-section img {
@@ -572,6 +586,58 @@ h1.floating-title {
 	height: auto;
 	border-radius: 8px;
 	border: 2px solid rgb(45, 45, 45);
+}
+
+.content-audio-section {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+
+.content-audio-player {
+	width: 100%;
+	max-width: 400px;
+	background: transparent;
+	border: none;
+	border-radius: 8px;
+}
+
+.content-audio-player::-webkit-media-controls-panel {
+	background-color: rgba(15, 15, 15, 0.9);
+}
+
+.content-audio-player::-webkit-media-controls-play-button,
+.content-audio-player::-webkit-media-controls-pause-button {
+	background-color: rgb(180, 120, 80);
+	border-radius: 50%;
+}
+
+.content-audio-player::-webkit-media-controls-timeline {
+	background-color: rgba(240, 240, 215, 0.2);
+	border-radius: 4px;
+}
+
+.content-audio-player::-webkit-media-controls-time-remaining-display,
+.content-audio-player::-webkit-media-controls-current-time-display {
+	color: rgb(240, 240, 215);
+}
+
+.content-spotify-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+
+.spotify-embed {
+	width: 100%;
+	max-width: 400px;
+	border: none;
+	background: transparent;
+	/* Try to hide album artwork area */
+	clip-path: inset(0 0 0 80px);
 }
 
 .full-width-content-box-alt {
