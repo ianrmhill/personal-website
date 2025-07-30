@@ -520,7 +520,7 @@ h1.floating-title {
 	margin-left: calc(-50vw + 50%);
 	margin-top: 80px;
 	margin-bottom: 80px;
-	background: rgba(15, 15, 15, 0.65);
+	background: rgba(15, 15, 15, 0.8);
 	border-top: 1px solid rgba(240, 240, 215, 0.15);
 	border-bottom: 1px solid rgba(240, 240, 215, 0.15);
 	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
@@ -548,8 +548,10 @@ h1.floating-title {
 .content-text-section h2 {
 	color: rgb(180, 120, 80);
 	font-size: 20px;
-	font-weight: 600;
-	letter-spacing: 1px;
+	font-family: 'Walkway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	margin: 0 0 20px 0;
 }
 
@@ -565,8 +567,8 @@ h1.floating-title {
 .content-image-section img {
 	width: 100%;
 	height: auto;
-	border-radius: 12px;
-	border: 2px solid rgba(240, 240, 215, 0.2);
+	border-radius: 8px;
+	border: 2px solid rgb(45, 45, 45);
 }
 
 .full-width-content-box-alt {
@@ -575,7 +577,7 @@ h1.floating-title {
 	margin-left: calc(-50vw + 50%);
 	margin-top: 80px;
 	margin-bottom: 80px;
-	background: rgba(15, 15, 15, 0.65);
+	background: rgba(15, 15, 15, 0.8);
 	border-top: 1px solid rgba(240, 240, 215, 0.15);
 	border-bottom: 1px solid rgba(240, 240, 215, 0.15);
 	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);

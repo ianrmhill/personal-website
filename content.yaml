@@ -1,0 +1,30 @@
+Biography:
+  - heading: "Personal Summary"
+    text: |
+      Ian Hill is a PhD candidate in Electrical and Computer Engineering at the University of British Columbia, specializing in the long-term reliability of semiconductors. He lives in Vancouver, British Columbia.
+      Ian is currently starting his search for full time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and feel free to contact him via email or LinkedIn.
+    image: "TurnedHeadshot"
+
+  - heading: "Biography"
+    text: |
+      Ian was born in Vancouver, British Columbia, and so grew up to love the rain. He attended False Creek Elementary followed by Point Grey Secondary, then moved to Ontario to complete an undergraduate degree in Electrical Engineering at the University of Waterloo. During his undergrad he had the privilege to undertake numerous co-op work opportunities at companies including Microsoft, NVIDIA, Thales Canada, and Johnson Controls. After five years of moving every four months during undergrad, Ian returned to Vancouver to work towards a PhD at the University of British Columbia where he is nearing completion.
+    image: "Little Ian"
+
+  - heading: "Degrees and Awards"
+    text: |
+      B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (With Distinction, Dean's Honours List) - University of Waterloo, 2020
+      Doctoral Postgraduate Scholarship - NSERC, 2023
+      Darren Paul Jacobsen Music Award - Point Grey Secondary School, 2015
+
+Research:
+  - heading: "Doctoral Dissertation"
+    text: |
+      While semiconductors are increasingly used to control safety-critical systems, transistors are shrinking to where single atom defects significantly affect aging. Current industrial and research methods for evaluating reliability are not rigorous enough in quantifying the uncertainty of predictions or modelling complex sources of variability, risking un-expected aging-induced failures in critical next-generation products. This research introduces several on-chip aging sensors that track the progression of different transistor defect formation physics, a probabilistic physics modelling framework that carefully incorporates uncertainty and variability, and an experimental design approach to optimize accelerated stress tests to meet rigorous reliability requirements with consideration for engineering costs and risks. Custom semiconductor chips and sophisticated probabilistic programming techniques are used to implement the research contributions, which are then validated through tests and detailed case studies. These contributions represent key components towards a comprehensive qualification strategy for ensuring safe long-term operation of atomic-scale transistors in critical applications.
+
+Music:
+  - heading: "Obido"
+    text: |
+      An in-progress ambient album inspired by beach sunsets, dusky summer skies, opulent estates, and ominous breezes, Obido will bring classical guitar to a unique setting. The framework is complete, but a large amount of effort still remains to bring this album to life.
+    image: "PortoSunset"
+
+Projects: []
