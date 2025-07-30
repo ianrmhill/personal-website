@@ -2,11 +2,12 @@ Home:
   - heading: "Personal Summary"
     text: |
       Ian Hill is a PhD candidate in Electrical and Computer Engineering at the University of British Columbia, specializing in the long-term reliability of semiconductors. He lives in Vancouver, British Columbia.
-      Ian is currently starting his search for full time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and feel free to contact him via email or LinkedIn.
+      Ian is currently starting his search for full time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and don't be afraid to contact him via email or LinkedIn.
     image: "TurnedHeadshot"
 
   - heading: "Degrees and Awards"
     text: |
+      Candidate for Ph.D. in Electrical and Computer Engineering - University of British Columbia, Expected Completion in 2025
       B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (With Distinction, Dean's Honours List) - University of Waterloo, 2020
       Doctoral Postgraduate Scholarship - NSERC, 2023
       Darren Paul Jacobsen Music Award - Point Grey Secondary School, 2015
@@ -24,10 +25,11 @@ Research:
 
 Music:
   - text: |
-      Ian has been playing music since the age of six, starting with classical guitar and Kodaly (theory + singing). Check out his Spotify and his Bandcamp!
+      As a hobbyist musician, finding time for what you love can be a challenge, and finding the energy to actually record and distribute that music is an even greater challenge. Ian has been playing music since the age of six, starting with classical guitar and Kodaly (theory + singing), but has only been working significantly on musical production since 2020.
+
   - heading: "Doubt"
     text: |
-      As a hobbyist musician, finding time for what you love can be a challenge, and finding the energy to actually record and distribute that music is an even greater challenge. Jumping over from classical, "Doubt" is Ian's first foray into modern production and represents a major milestone in his journey of learning and creation. The track is all Ian's work, from lyrics to composition to instruments to singing to production to mix and then master, and it was all done in his bedroom. This snapshot of his musical progress has lots going on for listeners to find including bass harmonics, subtle guitar harmonies, and a happy cat. "Doubt" is the first but certainly not the last, with other compositions in the works that should get better and better as his experience grows. More to come in the future, hope you enjoy listening!
+       This is Ian's first foray into modern production and pop-style music, representing a major milestone in his musician's journey. The track is all Ian's work, from lyrics to composition to instruments to singing to production to mix and then master, and it was all done in his bedroom. This snapshot of his musical progress has lots going on for listeners to find including bass harmonics, subtle guitar harmonies, and a happy cat. "Doubt" is the first but certainly not the last, with other compositions in the works that should get better and better as his experience grows. More to come in the future, hope you enjoy listening!
     image: "DoubtCover"
     spotify: "https://open.spotify.com/embed/track/6EoQdCFRYtA3htQIbMO0bX?utm_source=generator"
 
@@ -35,11 +37,19 @@ Music:
     text: |
       This album is a one-man COVID lockdown adventure into microphone placement, careful listening, and frustrating takes. The result is an authentic 40 minutes of classical guitar repertoire performed in a living room. No church acoustics, virtually no audio processing, and all the imperfections of live performance and home recording. Ian plays a Steve Ganz guitar and recorded the album with a stereo pair of Rode M5 microphones.
     image: "HobbiesCover"
+    spotify: "https://open.spotify.com/embed/track/5Sj8QPRHevw2feoO52yvq4?utm_source=generator"
+
   - heading: "Obido"
     text: |
-      An in-progress ambient album inspired by beach sunsets, dusky summer skies, opulent estates, and ominous breezes, Obido will bring classical guitar to a unique setting. The framework is complete, but a large amount of effort still remains to bring this album to life.
+      An in-progress ambient album inspired by beach sunsets, dusky summer skies, opulent estates, and ominous breezes. Obido will bring classical guitar to a unique setting. A sketch of the overall composition is complete, but lots of effort remains to bring this album to life.
     image: "PortoSunset"
     audio: "ObidoSnippet"
+
+  - heading: "Tidbits"
+    text: |
+      Some short-form videos can be found on Ian's Instagram along with a few full videos on his Youtube channel, which show not just how the guitar sounds but also how the passages are played. New little compositions and covers are added over time!
+    image: "ElectricGuitar"
+    audio: "Intertidal"
 
 Projects:
   - heading: "Home Bartending"
@@ -48,3 +58,7 @@ Projects:
       "Best cocktail I've had in years!"
       "Nice"
     image: "Cocktail"
+
+  - heading: "Generative Personal Website"
+    text: |
+      Not one to get left behind (and one who refuses to learn JavaScript), this website was constructed using Claude Code with very little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without a strong technical background and practice scoping out bite-size tasks, many features would be missing or much harder to achieve, such as directing Claude to use dynamic content loaded from a YAML file for easy future website content updates.

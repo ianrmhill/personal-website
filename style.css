@@ -629,15 +629,19 @@ h1.floating-title {
 	align-items: center;
 	justify-content: center;
 	padding: 0;
+	border-radius: 14px;
+	overflow: hidden;
+	height: 80px;
 }
 
 .spotify-embed {
-	width: 100%;
-	max-width: 400px;
+	width: calc(100% + 80px);
+	max-width: 480px;
 	border: none;
 	background: transparent;
-	/* Try to hide album artwork area */
+	/* Hide album artwork area */
 	clip-path: inset(0 0 0 80px);
+	margin-left: -80px;
 }
 
 .full-width-content-box-alt {
