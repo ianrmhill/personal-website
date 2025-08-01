@@ -179,25 +179,34 @@ async function generatePageContent(contentItems) {
         const item = contentItems[i];
         const isAlt = i % 2 === 1; // Alternate between variants
         
-        const config = {
-            text: generateContentText(item),
-            image: item.image ? {
+        // Check if this is an image-only item (has image but no text/heading)
+        if (item.image && !item.text && !item.heading) {
+            const imageConfig = {
                 src: await getImagePath(item.image),
-                alt: item.heading || ''
-            } : null,
-            audio: item.audio ? {
-                src: await getAudioPath(item.audio),
-                name: item.audio
-            } : null,
-            spotify: item.spotify ? {
-                src: item.spotify
-            } : null
-        };
-        
-        if (isAlt) {
-            content += await loadFullWidthBoxAlt(config);
+                alt: item.image
+            };
+            content += await loadFullWidthImageOnly(imageConfig);
         } else {
-            content += await loadFullWidthBox(config);
+            const config = {
+                text: generateContentText(item),
+                image: item.image ? {
+                    src: await getImagePath(item.image),
+                    alt: item.heading || ''
+                } : null,
+                audio: item.audio ? {
+                    src: await getAudioPath(item.audio),
+                    name: item.audio
+                } : null,
+                spotify: item.spotify ? {
+                    src: item.spotify
+                } : null
+            };
+            
+            if (isAlt) {
+                content += await loadFullWidthBoxAlt(config);
+            } else {
+                content += await loadFullWidthBox(config);
+            }
         }
     }
     
@@ -554,6 +563,45 @@ async function loadFullWidthBoxAlt(config) {
     }
 }
 
+
+// Full-width image-only loader
+async function loadFullWidthImageOnly(config) {
+    const componentFile = `components/full-width-image-only.html`;
+    
+    try {
+        const response = await fetch(componentFile);
+        const html = await response.text();
+        
+        // Create a temporary container to manipulate the HTML
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        
+        // Find elements and populate with config data
+        const component = tempDiv.querySelector(`[data-component="full-width-image-only"]`);
+        
+        // Generate unique random angles based on image path
+        const contentHash = simpleHash(config.src);
+        const topLeft = 15 + ((contentHash % 100) / 100) * 10 - 5; // 10-20%
+        const topRight = 0 + ((Math.floor(contentHash / 100) % 100) / 100) * 10 - 5; // -5-5%
+        const bottomRight = 100; // Keep at 100%
+        const bottomLeft = 85 + ((Math.floor(contentHash / 10000) % 100) / 100) * 10 - 5; // 80-90%
+        
+        // Apply random clip-path
+        const clipPath = `polygon(0 ${topLeft}%, 100% ${Math.max(0, topRight)}%, ${bottomRight}% 100%, 0 ${bottomLeft}%)`;
+        component.style.clipPath = clipPath;
+        
+        // Set image
+        const imgEl = component.querySelector('img');
+        imgEl.src = config.src;
+        imgEl.alt = config.alt || '';
+        
+        return component.outerHTML;
+    } catch (error) {
+        console.error('Error loading full-width image-only:', error);
+        return '<div>Error loading image content</div>';
+    }
+}
+
 // Simple hash function for consistent randomness
 function simpleHash(str) {
     let hash = 0;
@@ -564,6 +612,7 @@ function simpleHash(str) {
     }
     return Math.abs(hash);
 }
+
 
 // Email obfuscation function
 function sendEmail() {

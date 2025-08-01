@@ -1,4 +1,6 @@
 Home:
+  - image: "WideSelf"
+
   - heading: "Personal Summary"
     text: |
       Ian Hill is a PhD candidate in Electrical and Computer Engineering at the University of British Columbia, specializing in the long-term reliability of semiconductors. He lives in Vancouver, British Columbia.

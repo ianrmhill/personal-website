@@ -657,3 +657,23 @@ h1.floating-title {
 	clip-path: polygon(0 0%, 100% 15%, 100% 85%, 0 100%);
 }
 
+.full-width-inner-image {
+	position: relative;
+	width: 100%;
+	height: 490px;
+	overflow: hidden;
+}
+
+/* Special positioning for first image-only component on home page */
+[data-component="full-width-image-only"]:first-of-type {
+	margin-top: -170px;
+}
+
+.full-width-background-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+

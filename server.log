@@ -2933,3 +2933,3133 @@
  HTTP  7/30/2025 2:23:50 PM ::1 Returned 304 in 1 ms
  HTTP  7/30/2025 2:23:50 PM ::1 GET /images/Biography.jpg
  HTTP  7/30/2025 2:23:50 PM ::1 Returned 304 in 0 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 8 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /style.css
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 2 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components.js
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 0 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /content.yaml
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 5 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/header.html
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 301 in 1 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/footer.html
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 301 in 1 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 404 in 2 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/header
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/footer
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 1 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 1 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 0 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/full-width-box.html
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 301 in 0 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/full-width-box
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 1 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 301 in 0 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /images/TurnedHeadshot.png
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 1 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /components/full-width-box-alt
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 0 ms
+ HTTP  7/30/2025 5:17:58 PM ::1 GET /images/Home.jpg
+ HTTP  7/30/2025 5:17:58 PM ::1 Returned 304 in 2 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 301 in 7 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 304 in 3 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 200 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /components/full-width-box-alt
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 404 in 2 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 200 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  7/31/2025 8:43:15 AM ::1 GET /images/HobbiesCover.png
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 200 in 1 ms
+ HTTP  7/31/2025 8:43:15 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 200 in 1 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /components/full-width-box-alt
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 304 in 5 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 200 in 2 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 206 in 2 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 304 in 2 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 200 in 0 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /images/Music.jpg
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 206 in 1 ms
+ HTTP  7/31/2025 8:43:16 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  7/31/2025 8:43:16 AM ::1 Returned 206 in 2 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 200 in 2 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 GET /images/Cocktail.jpg
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 GET /components/full-width-box-alt
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:02 AM ::1 GET /images/Projects.jpg
+ HTTP  7/31/2025 8:44:02 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:25 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  7/31/2025 8:44:25 AM ::1 Returned 304 in 3 ms
+ HTTP  7/31/2025 8:44:25 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 8:44:25 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 8:44:25 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 8:44:25 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:25 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  7/31/2025 8:44:25 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:25 AM ::1 GET /images/Biography.jpg
+ HTTP  7/31/2025 8:44:25 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /style.css
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components.js
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /content.yaml
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/header.html
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/footer.html
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 404 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/footer
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/header
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /components/full-width-box-alt
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 8:44:35 AM ::1 GET /images/Home.jpg
+ HTTP  7/31/2025 8:44:35 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 301 in 3 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box-alt
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 404 in 2 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 301 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /images/HobbiesCover.png
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 200 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box-alt
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 206 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 200 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 200 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box.html
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 301 in 0 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /components/full-width-box
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 2 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /images/Music.jpg
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 206 in 1 ms
+ HTTP  7/31/2025 9:08:48 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  7/31/2025 9:08:48 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /style.css
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components.js
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/header
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/footer
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 8:39:05 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 8:39:05 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 200 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:40:18 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:40:18 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:41:04 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:41:04 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:42:27 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:42:27 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:42:27 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:42:27 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:42:27 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:42:27 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:42:27 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:42:27 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:42:27 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 8:42:27 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:43:04 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:43:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:43:04 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:43:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:43:04 AM ::1 GET /images/Research.jpg
+ HTTP  8/1/2025 8:43:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:43:21 AM ::1 GET /images/Projects.jpg
+ HTTP  8/1/2025 8:43:21 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:44:37 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:44:37 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:44:37 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:44:37 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:44:37 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:44:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:44:37 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:44:37 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:44:37 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 8:44:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /style.css
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components.js
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/header
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/footer
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:46:06 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 8:46:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:48:02 AM ::1 GET /images/Projects.jpg
+ HTTP  8/1/2025 8:48:02 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 7 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 7 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:49:04 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:49:04 AM ::1 Returned 206 in 2 ms
+ HTTP  8/1/2025 8:49:43 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:49:43 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 8:54:44 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:54:44 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:54:44 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:54:44 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:54:44 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:54:44 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 8:54:44 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:54:44 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:54:44 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 8:54:44 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 200 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components.js
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /style.css
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 200 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /favicon.ico
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/header
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/footer
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:20 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 8:56:20 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 8:56:54 AM ::1 GET /
+ HTTP  8/1/2025 8:56:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:54 AM ::1 GET /style.css
+ HTTP  8/1/2025 8:56:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:54 AM ::1 GET /components.js
+ HTTP  8/1/2025 8:56:54 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/header
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/footer
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:56:55 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 8:56:55 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:26 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:57:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:26 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:57:26 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:57:26 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:57:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:26 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 8:57:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:26 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 8:57:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:28 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:57:28 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:57:28 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:57:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:28 AM ::1 GET /images/Research.jpg
+ HTTP  8/1/2025 8:57:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /style.css
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components.js
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/header
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/footer
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:57:43 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 8:57:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 8:58:17 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 8:58:17 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components.js
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /style.css
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/header
+ HTTP  8/1/2025 8:58:40 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/footer
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 8:58:40 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 8:58:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:28 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:01:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 206 in 2 ms
+ HTTP  8/1/2025 9:01:50 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:01:50 AM ::1 Returned 206 in 3 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:19 AM ::1 GET /images/Projects.jpg
+ HTTP  8/1/2025 9:02:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:02:28 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:02:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:53 AM ::1 GET /
+ HTTP  8/1/2025 9:03:53 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:03:53 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:03:53 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:53 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:03:53 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:53 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:03:53 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:03:54 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:03:54 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:03:54 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 200 in 10 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:10:34 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:10:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:36 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:10:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:36 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:10:36 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:36 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:10:36 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:36 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:10:36 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:36 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:10:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:10:37 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:10:37 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:12:23 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:12:23 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:12:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 200 in 3 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:21:22 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:21:22 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:21:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:23:10 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:10 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:23:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 9:23:24 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:23:24 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:28 AM ::1 GET /images/Projects.jpg
+ HTTP  8/1/2025 9:23:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:29 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:30 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:30 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:30 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:30 AM ::1 GET /images/Research.jpg
+ HTTP  8/1/2025 9:23:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:31 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:31 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:31 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:31 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:31 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:31 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:23:36 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:23:36 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:24:26 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:24:26 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:24:26 AM ::1 Returned 200 in 25 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:25:15 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:25:15 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:25:15 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:31:34 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 9:31:34 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:31:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:31:35 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:31:35 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:31:35 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:31:35 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:31:35 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:31:35 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:31:35 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:31:35 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:31:35 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:31:35 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:31:35 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:31:35 AM ::1 Returned 200 in 13 ms
+ HTTP  8/1/2025 9:32:10 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:32:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:10 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:32:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:32:10 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:32:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:10 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:32:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:10 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:32:10 AM ::1 Returned 200 in 11 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:32:23 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:23 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:32:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:28 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:32:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:28 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:32:28 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:32:28 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:32:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:28 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:32:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:28 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:32:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /biography
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:32:57 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:32:57 AM ::1 Returned 200 in 5 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /biography
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:36:04 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:36:04 AM ::1 Returned 200 in 9 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:37:01 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:01 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:37:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:04 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:37:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:04 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:37:04 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:04 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:37:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:04 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:37:04 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:04 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:37:04 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /biography
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:24 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 9:37:24 AM ::1 Returned 200 in 8 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:37:25 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:37:25 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:37:25 AM ::1 Returned 200 in 5 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:41:06 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:41:06 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:41:06 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:42:19 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:42:19 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:42:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:43:07 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:43:07 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:43:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:44:26 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:26 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:44:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:51 AM ::1 GET /
+ HTTP  8/1/2025 9:44:51 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:51 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:44:51 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:51 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:44:51 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:51 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:44:51 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:51 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:44:51 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:51 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:44:51 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:44:52 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:44:52 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:44:52 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:47:24 AM ::1 GET /
+ HTTP  8/1/2025 9:47:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:24 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:47:24 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /favicon.ico
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:47:25 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:47:25 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:47:25 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:55:13 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:55:13 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:55:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /style.css
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components.js
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/header
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/footer
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 9:58:10 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 9:58:10 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 9:58:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:00:18 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:18 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:00:19 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:00:19 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 200 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:34 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:02:34 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:40 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:02:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:40 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:02:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:40 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 10:02:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:02:41 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:41 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:02:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:02:42 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:02:42 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 10:02:48 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:48 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:48 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:48 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:48 AM ::1 GET /images/Research.jpg
+ HTTP  8/1/2025 10:02:48 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:02:50 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:02:50 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 200 in 3 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /favicon.ico
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:05:08 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:05:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:10:28 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:10:28 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:10:28 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:12:12 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:12:12 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:12:12 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:20:08 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:20:08 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:20:08 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 2 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:24:26 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:26:00 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:26:00 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 200 in 5 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:29:14 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:29:14 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:30:13 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:30:13 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:30:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:30:14 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:30:14 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:31:03 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:31:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:34:13 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:34:13 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:37:43 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:37:43 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 404 in 3 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:09 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:40:09 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 10:40:10 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:40:10 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:40:19 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:40:19 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /music
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:40:40 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:40:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 10:40:41 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:40:41 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:40:41 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 10:40:41 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:29 AM ::1 GET /images/Projects.jpg
+ HTTP  8/1/2025 10:41:29 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:32 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:41:32 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:32 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:41:32 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:41:32 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:41:32 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:32 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:41:32 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:41:32 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 10:41:32 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-slideshow.html
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-slideshow
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:41:33 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:41:33 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 200 in 2 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 200 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:44:07 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:07 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:44:07 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:08 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:44:08 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 404 in 2 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:44:30 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:44:30 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:45:10 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:45:10 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:45:10 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:45:10 AM ::1 Returned 304 in 8 ms
+ HTTP  8/1/2025 10:45:11 AM ::1 GET /images/Research.jpg
+ HTTP  8/1/2025 10:45:11 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 404 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:45:22 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:45:22 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /images/HobbiesCover.png
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 206 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /images/Music.jpg
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:48:40 AM ::1 GET /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:48:40 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:48:56 AM ::1 HEAD /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:48:56 AM ::1 Returned 200 in 0 ms
+ HTTP  8/1/2025 10:48:56 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:48:56 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:48:56 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:48:56 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:48:56 AM ::1 GET /images/Little%20Ian.jpg
+ HTTP  8/1/2025 10:48:56 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:48:56 AM ::1 GET /images/Biography.jpg
+ HTTP  8/1/2025 10:48:56 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /images/DoubtCover.jpg
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /images/HobbiesCover.jpg
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /images/HobbiesCover.png
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /images/PortoSunset.jpg
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /images/ElectricGuitar.jpg
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /artifacts/ObidoSnippet.flac
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 206 in 1 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 HEAD /artifacts/Intertidal.flac
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:01 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:49:01 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:03 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:49:03 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:49:03 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:49:03 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:03 AM ::1 GET /images/Research.jpg
+ HTTP  8/1/2025 10:49:03 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 HEAD /images/Cocktail.jpg
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 GET /images/Cocktail.jpg
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:23 AM ::1 GET /images/Projects.jpg
+ HTTP  8/1/2025 10:49:23 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components.js
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /style.css
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /content.yaml
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/header.html
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 301 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/footer.html
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 HEAD /images/WideSelf.jpg
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/header
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/footer
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/full-width-image-only.html
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/full-width-image-only
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 HEAD /images/TurnedHeadshot.jpg
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /images/WideSelf.jpg
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 404 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 HEAD /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/full-width-box-alt.html
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/full-width-box-alt
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/full-width-box.html
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 301 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /images/TurnedHeadshot.png
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /components/full-width-box
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 1 ms
+ HTTP  8/1/2025 10:49:26 AM ::1 GET /images/Home.jpg
+ HTTP  8/1/2025 10:49:26 AM ::1 Returned 304 in 0 ms
