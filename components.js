@@ -266,6 +266,12 @@ function generateContentText(item) {
         // Convert "CV" to downloadable link
         processedText = processedText.replace(/\bCV\b/g, '<a href="artifacts/CV.pdf" target="_blank" download>CV</a>');
         
+        // Convert "ORCID" to external link
+        processedText = processedText.replace(/\bORCID\b/g, '<a href="https://orcid.org/0000-0001-9782-8522" target="_blank">ORCID</a>');
+        
+        // Convert **text** to bold formatting
+        processedText = processedText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        
         // Convert newlines to HTML line breaks with extra spacing
         processedText = processedText.replace(/\n/g, '<br><br>');
         
@@ -428,7 +434,7 @@ async function loadFullWidthBox(config) {
                 if (spotifyUrl.includes('?')) {
                     spotifyUrl = spotifyUrl.split('?')[0];
                 }
-                spotifyUrl += '?utm_source=generator&theme=0&view=coverart';
+                spotifyUrl += '?utm_source=generator&theme=0&view=coverart&autoplay=false&timeout=300';
             }
             iframeEl.src = spotifyUrl;
             spotifySection.style.display = 'block';
@@ -534,7 +540,7 @@ async function loadFullWidthBoxAlt(config) {
                 if (spotifyUrl.includes('?')) {
                     spotifyUrl = spotifyUrl.split('?')[0];
                 }
-                spotifyUrl += '?utm_source=generator&theme=0&view=coverart';
+                spotifyUrl += '?utm_source=generator&theme=0&view=coverart&autoplay=false&timeout=300';
             }
             iframeEl.src = spotifyUrl;
             spotifySection.style.display = 'block';

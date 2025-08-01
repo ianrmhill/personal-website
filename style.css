@@ -23,7 +23,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: "Century Gothic", Helvetica, sans-sarif;
+	font-family: "Nirmala UI", Helvetica, sans-sarif;
 	overflow-x: hidden;
 }
 
@@ -121,6 +121,19 @@ a:visited {
 
 .content-text-section a[download]:hover,
 .floating-text a[download]:hover {
+	color: rgb(200, 140, 100);
+}
+
+/* ORCID external links styling */
+.content-text-section a[href*="orcid.org"],
+.floating-text a[href*="orcid.org"] {
+	color: rgb(180, 120, 80);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.content-text-section a[href*="orcid.org"]:hover,
+.floating-text a[href*="orcid.org"]:hover {
 	color: rgb(200, 140, 100);
 }
 
@@ -665,13 +678,28 @@ h1.floating-title {
 	height: 33vw;
 	max-height: 490px;
 	min-height: 250px;
-	overflow: hidden;
+	overflow: visible;
 }
+
+.full-width-inner-image::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, transparent 30%, transparent 60%, rgba(0,0,0,0.8) 100%);
+	pointer-events: none;
+	z-index: 1;
+}
+
+
 
 /* Special positioning for first image-only component on home page */
 [data-component="full-width-image-only"]:first-of-type {
 	margin-top: calc(-11vw - 50px);
 }
+
 
 /* Constrain margin-top for very wide screens */
 @media (min-width: 1500px) {

@@ -4,7 +4,7 @@ Home:
   - heading: "Personal Summary"
     text: |
       Ian Hill is a PhD candidate in Electrical and Computer Engineering at the University of British Columbia, specializing in the long-term reliability of semiconductors. He lives in Vancouver, British Columbia.
-      Ian is currently starting his search for full time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and contact him via email or LinkedIn.
+      Ian is currently starting his search for full-time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and contact him via email or LinkedIn.
     image: "TurnedHeadshot"
 
   - heading: "Education"
@@ -26,9 +26,9 @@ Research:
   - heading: "Foci"
     text: |
         Ian's research is broadly focused on applications of computational statistics in hardware engineering:
-        **Semiconductor Wear-Out** - On-chip sensors, uncertainty-aware prediction, accelerated life test optimization
-        Bayesian Experimental Design - Engineering risk and cost considerations, novel applications
-        Probabilistic Programming - Generative modelling, software useability, uncertainty quantification
+        **Semiconductor Reliability** - On-chip sensors, uncertainty-aware prediction, accelerated life test optimization
+        **Bayesian Experimental Design** - Engineering risk and cost considerations, novel applications
+        **Probabilistic Programming** - Generative modelling, software useability, uncertainty quantification
     image: "ProbEM"
 
   - heading: "Selected Publications"
@@ -37,7 +37,8 @@ Research:
         I. Hill, M. Rendón, and A. Ivanov, “Enhanced wear-out sensor design in a 12nm process for separable stress regime monitoring,” in 2024 IEEE 42nd VLSI Test Symposium (VTS), 2024, pp. 1–7.
         I. Hill, M. Rendón, and A. Ivanov, “A novel induced offset voltage sensor for separable wear-out mechanism characterization in a 12nm FinFET process,” in 2024 IEEE International Reliability Physics Symposium (IRPS), 2024, pp. 8A.4–1–8A.4–9.
         I. Hill, P. Chanawala, R. Singh, S. A. Sheikholeslam, and A. Ivanov, “CMOS reliability from past to future: A survey of requirements, trends, and prediction methods,” IEEE Transactions on Device and Materials Reliability, vol. 22, no. 1, pp. 1–18, 2022.
-    image: "InfWeibull"
+        For a complete listing, visit Ian's ORCID page.
+    image: "PhotonicsChip"
 
   - heading: "Doctoral Dissertation"
     text: |
