@@ -4,34 +4,53 @@ Home:
   - heading: "Personal Summary"
     text: |
       Ian Hill is a PhD candidate in Electrical and Computer Engineering at the University of British Columbia, specializing in the long-term reliability of semiconductors. He lives in Vancouver, British Columbia.
-      Ian is currently starting his search for full time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and don't be afraid to contact him via email or LinkedIn.
+      Ian is currently starting his search for full time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and contact him via email or LinkedIn.
     image: "TurnedHeadshot"
 
-  - heading: "Degrees and Awards"
+  - heading: "Education"
     text: |
       Candidate for Ph.D. in Electrical and Computer Engineering - University of British Columbia, Expected Completion in 2025
-      B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (With Distinction, Dean's Honours List) - University of Waterloo, 2020
-      Doctoral Postgraduate Scholarship - NSERC, 2023
-      Darren Paul Jacobsen Music Award - Point Grey Secondary School, 2015
+      B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (with Dean's Honours List Distinction) - University of Waterloo, 2020
 
-Biography:
-  - heading: "Biography"
+  - heading: "Experience"
     text: |
-      Ian was born in Vancouver, British Columbia, and so grew up to love the rain. He attended False Creek Elementary followed by Point Grey Secondary, then moved to Ontario to complete an undergraduate degree in Electrical Engineering at the University of Waterloo. During his undergrad he had the privilege to undertake numerous co-op work opportunities at companies including Microsoft, NVIDIA, Thales Canada, and Johnson Controls. After five years of moving every four months during undergrad, Ian returned to Vancouver to work towards a PhD at the University of British Columbia where he is nearing completion.
-    image: "Little Ian"
+      Engineering Capstone Teaching Assistant - University of British Columbia (Sept. 2020 - Apr. 2025)
+      Silicon Verification Intern - Microsoft (Sept. - Dec. 2019)
+      ASIC Design Intern - NVIDIA Corporation (Sept. - Dec. 2018)
+      Silicon Validation Engineering Intern - NVIDIA Corporation (Jan. - Apr. 2018)
+      Hardware Designer - Tyco Security Products (May. - Aug. 2017)
+      Software Developer Intern - ADP Canada (Aug. - Dec. 2016)
+      Software Analyst Intern - Thales Canada (Jan. - Apr. 2016)
 
 Research:
+  - heading: "Foci"
+    text: |
+        Ian's research is broadly focused on applications of computational statistics in hardware engineering:
+        **Semiconductor Wear-Out** - On-chip sensors, uncertainty-aware prediction, accelerated life test optimization
+        Bayesian Experimental Design - Engineering risk and cost considerations, novel applications
+        Probabilistic Programming - Generative modelling, software useability, uncertainty quantification
+    image: "ProbEM"
+
+  - heading: "Selected Publications"
+    text: |
+        I. Hill and A. Ivanov, “Multilevel variability and epistemic uncertainty analysis of reliability physics models through hierarchical probabilistic modelling,” in 2025 IEEE International Reliability Physics Symposium (IRPS), 2025, pp. 1–6.
+        I. Hill, M. Rendón, and A. Ivanov, “Enhanced wear-out sensor design in a 12nm process for separable stress regime monitoring,” in 2024 IEEE 42nd VLSI Test Symposium (VTS), 2024, pp. 1–7.
+        I. Hill, M. Rendón, and A. Ivanov, “A novel induced offset voltage sensor for separable wear-out mechanism characterization in a 12nm FinFET process,” in 2024 IEEE International Reliability Physics Symposium (IRPS), 2024, pp. 8A.4–1–8A.4–9.
+        I. Hill, P. Chanawala, R. Singh, S. A. Sheikholeslam, and A. Ivanov, “CMOS reliability from past to future: A survey of requirements, trends, and prediction methods,” IEEE Transactions on Device and Materials Reliability, vol. 22, no. 1, pp. 1–18, 2022.
+    image: "InfWeibull"
+
   - heading: "Doctoral Dissertation"
     text: |
       While semiconductors are increasingly used to control safety-critical systems, transistors are shrinking to where single atom defects significantly affect aging. Current industrial and research methods for evaluating reliability are not rigorous enough in quantifying the uncertainty of predictions or modelling complex sources of variability, risking un-expected aging-induced failures in critical next-generation products. This research introduces several on-chip aging sensors that track the progression of different transistor defect formation physics, a probabilistic physics modelling framework that carefully incorporates uncertainty and variability, and an experimental design approach to optimize accelerated stress tests to meet rigorous reliability requirements with consideration for engineering costs and risks. Custom semiconductor chips and sophisticated probabilistic programming techniques are used to implement the research contributions, which are then validated through tests and detailed case studies. These contributions represent key components towards a comprehensive qualification strategy for ensuring safe long-term operation of atomic-scale transistors in critical applications.
+        Supervised by Dr. André Ivanov
 
 Music:
   - text: |
-      As a hobbyist musician, finding time for what you love can be a challenge, and finding the energy to actually record and distribute that music is an even greater challenge. Ian has been playing music since the age of six, starting with classical guitar and Kodaly (theory + singing), but has only been working significantly on musical production since 2020.
+      As a hobbyist musician, finding time for what you love can be a challenge, and finding the energy to actually record and distribute that music is an even greater challenge. Ian has been playing music since the age of six, starting with the classical guitar, but only began working significantly on musical production in 2020.
 
   - heading: "Doubt"
     text: |
-       This is Ian's first foray into modern production and pop-style music, representing a major milestone in his musician's journey. The track is all Ian's work, from lyrics to composition to instruments to singing to production to mix and then master, and it was all done in his bedroom. This snapshot of his musical progress has lots going on for listeners to find including bass harmonics, subtle guitar harmonies, and a happy cat. "Doubt" is the first but certainly not the last, with other compositions in the works that should get better and better as his experience grows. More to come in the future, hope you enjoy listening!
+       Ian's first foray into modern production and pop-style music represents a major milestone in his musician's journey. The track is all Ian's work, from lyrics to composition to instruments to singing to production to mix and then master, and it was all done in his bedroom. This snapshot of his musical progress has lots going on for listeners to find including bass harmonics, subtle guitar harmonies, and a happy cat. "Doubt" is the first but certainly not the last, with other compositions in the works that should get better and better as his experience grows. More to come in the future, hope you enjoy listening!
     image: "DoubtCover"
     spotify: "https://open.spotify.com/embed/track/6EoQdCFRYtA3htQIbMO0bX?utm_source=generator"
 
@@ -49,7 +68,7 @@ Music:
 
   - heading: "Tidbits"
     text: |
-      Some short-form videos can be found on Ian's Instagram along with a few full videos on his Youtube channel, which show not just how the guitar sounds but also how the passages are played. New little compositions and covers are added over time!
+      Some short-form videos can be found on Ian's Instagram along with a few full playthrough videos on his Youtube channel, which show not just how the guitar sounds but also how the passages are played. New little compositions and covers are added over time!
     image: "ElectricGuitar"
     audio: "Intertidal"
 
@@ -61,6 +80,6 @@ Projects:
       "Nice"
     image: "Cocktail"
 
-  - heading: "Generative Personal Website"
+  - heading: "Personal Website"
     text: |
-      Not one to get left behind (and one who refuses to learn JavaScript), this website was constructed using Claude Code with very little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without a strong technical background and practice scoping out bite-size tasks, many features would be missing or much harder to achieve, such as directing Claude to use dynamic content loaded from a YAML file for easy future website content updates.
+      Not one to get left behind (and one who dislikes JavaScript), this website was constructed using Anthropics's Claude Code with very little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without a strong technical background and practice scoping out bite-size tasks, many features would be missing or much harder to achieve, such as directing Claude to use dynamic content loaded from a YAML file for easy future website content updates.
