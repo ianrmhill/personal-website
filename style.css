@@ -241,10 +241,9 @@ li p {
 
 .mobile-menu-toggle span {
 	display: block;
-	height: 1.5px;
+	height: 0;
 	width: 100%;
-	/* background-color: rgb(240, 240, 215); */
-	background-color: rgb(240, 240, 215);
+	border-top: 1.5px solid rgb(240, 240, 215);
 	border-radius: 1px;
 	transition: all 0.3s ease;
 }
@@ -277,7 +276,7 @@ li p {
 }
 
 .mobile-dropdown a:hover {
-	font-weight: 700;
+	color: rgb(180, 120, 80);
 }
 
 .mobile-dropdown a.active {
@@ -327,19 +326,34 @@ li p {
 	
 	/* Reduce content box tilt on mobile for better readability */
 	.full-width-content-box {
-		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%) !important; /* Reduced from 15% to 8% */
+		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%) !important; /* Reduced from 15% to 8% */
 	}
+
+    .full-width-content-box .full-width-inner,
+    .full-width-content-box-alt .full-width-inner {
+        padding: 60px 10px !important;
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
 	
 	.full-width-content-box-alt {
-		clip-path: polygon(0 0%, 100% 8%, 100% 92%, 0 100%) !important; /* Reduced from 15% to 8% */
+		clip-path: polygon(0 0%, 100% 5%, 100% 95%, 0 100%) !important; /* Reduced from 15% to 8% */
 	}
 	
 	[data-component="full-width-image-only"] {
-		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%) !important; /* Reduced tilt for images too */
+		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%) !important; /* Reduced tilt for images too */
 	}
 
 	[data-component="full-width-image-only"]:first-of-type {
 		margin-top: -100px;
+	}
+	
+	/* Fix content box overflow on mobile */
+	.content-media-section {
+		flex: none;
+		width: 100%;
+		max-width: none;
+		min-width: auto;
 	}
 	
 	
@@ -610,7 +624,7 @@ h1.floating-title {
 /* Content media section layout */
 .content-media-section {
 	flex: 0 0 33vw;
-	max-width: 400px;
+	max-width: min(66.67vw, 400px); /* 2/3 of page width or 400px, whichever is smaller */
 	min-width: 250px;
 	display: flex;
 	flex-direction: column;
