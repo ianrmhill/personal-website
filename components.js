@@ -163,7 +163,6 @@ async function loadPage(route) {
         if (backgroundElement) {
             // Use the original pageName case to match image files
             backgroundElement.style.backgroundImage = `url('images/${pageName}.jpg')`;
-            console.log(`Setting background image: images/${pageName}.jpg`);
         }
     } catch (error) {
         console.error('Error generating page content:', error);

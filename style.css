@@ -287,7 +287,7 @@ li p {
 }
 
 /* Responsive Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.desktop-nav {
 		display: none;
 	}
@@ -296,9 +296,8 @@ li p {
 		display: flex;
 	}
 	
-	.footercontent {
-		justify-content: center;
-		gap: 20px;
+	.email-contact-text {
+		display: none;
 	}
 	
 	.social-links-center {
@@ -313,16 +312,46 @@ li p {
 		justify-content: center;
 		flex: none;
 		order: 1;
+    }
+	
+	/* Reduce content box tilt on mobile for better readability */
+	.full-width-content-box {
+		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%) !important; /* Reduced from 15% to 8% */
 	}
 	
-	.footercontent {
-		justify-content: center;
-		height: 60px;
-		padding: 0 12.5%;
+	.full-width-content-box-alt {
+		clip-path: polygon(0 0%, 100% 8%, 100% 92%, 0 100%) !important; /* Reduced from 15% to 8% */
 	}
 	
+	[data-component="full-width-image-only"] {
+		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%) !important; /* Reduced tilt for images too */
+	}
+
+	[data-component="full-width-image-only"]:first-of-type {
+		margin-top: -100px;
+	}
+}
+
+/* Medium screen adjustments */
+@media (max-width: 1300px) and (min-width: 800px) {
 	.email-contact-text {
 		display: none;
+	}
+
+	.full-width-content-box {
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%) !important; /* Moderate tilt */
+	}
+	
+	.full-width-content-box-alt {
+		clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0 100%) !important; /* Moderate tilt */
+	}
+	
+	[data-component="full-width-image-only"] {
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%) !important; /* Moderate tilt for images */
+	}
+
+	[data-component="full-width-image-only"]:first-of-type {
+		margin-top: -170px;
 	}
 }
 
@@ -344,12 +373,6 @@ li p {
 	min-height: 100vh;
 	position: relative;
 }
-
-
-
-
-
-
 
 .footerbar {
 	width: 100%;
@@ -693,26 +716,9 @@ h1.floating-title {
 	z-index: 1;
 }
 
-
-
 /* Special positioning for first image-only component on home page */
 [data-component="full-width-image-only"]:first-of-type {
 	margin-top: calc(-11vw - 50px);
-}
-
-
-/* Constrain margin-top for very wide screens */
-@media (min-width: 1500px) {
-	[data-component="full-width-image-only"]:first-of-type {
-		margin-top: -170px;
-	}
-}
-
-/* Adjust margin-top for narrow screens */
-@media (max-width: 800px) {
-	[data-component="full-width-image-only"]:first-of-type {
-		margin-top: -100px;
-	}
 }
 
 .full-width-background-image {
@@ -721,5 +727,3 @@ h1.floating-title {
 	object-fit: cover;
 	object-position: center;
 }
-
-

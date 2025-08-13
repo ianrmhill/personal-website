@@ -74,6 +74,11 @@ Music:
     audio: "Intertidal"
 
 Projects:
+  - heading: "Custom 12nm FinFET Chip Design"
+    text: |
+        As part of his PhD dissertation, Ian implemented custom on-chip sensors for monitoring semiconductor aging in a 12nm FinFET fabrication process. The design of this chip took six months in total to learn FinFET layout techniques, implement the sensors and perform physically-aware simulations of the designs, route all the interconnects for the chip, put together the pad ring, and verify the full design against electrical and design rules. The finished design contains several different sensor types alongside all the control and read-out logic and multiplexing required to interface with various sensor instances. After the chips were fabricated and tested, accelerated life tests on the chips were conducted to demonstrate that the sensor designs were functional and realizable. 
+    image: "CustomChip"
+
   - heading: "Home Bartending"
     text: |
       Learning to imbibe! More of an ongoing journey than a set project, getting better at making cocktails has been a fun hobby to break up the time between more technical projects. Guest reviews:
@@ -83,4 +88,4 @@ Projects:
 
   - heading: "Personal Website"
     text: |
-      Not one to get left behind (and one who dislikes JavaScript), this website was constructed using Anthropics's Claude Code with very little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without a strong technical background and practice scoping out bite-size tasks, many features would be missing or much harder to achieve, such as directing Claude to use dynamic content loaded from a YAML file for easy future website content updates.
+      Not one to get left behind (and one who dislikes JavaScript), this website was constructed using Anthropic's Claude Code with very little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without technical background and practice scoping out bite-size tasks, many features would be missing or much harder to achieve, such as directing Claude to use dynamic content loaded from a YAML file for easy future website content updates.
