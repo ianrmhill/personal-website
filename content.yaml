@@ -7,12 +7,7 @@ Home:
       Ian is currently starting his search for full-time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and contact him via email or LinkedIn.
     image: "TurnedHeadshot"
 
-  - heading: "Education"
-    text: |
-      Candidate for Ph.D. in Electrical and Computer Engineering - University of British Columbia, Expected Completion in 2025
-      B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (with Dean's Honours List Distinction) - University of Waterloo, 2020
-
-  - heading: "Experience"
+  - heading: "Industrial Experience"
     text: |
       Engineering Capstone Teaching Assistant - University of British Columbia (Sept. 2020 - Apr. 2025)
       Silicon Verification Intern - Microsoft (Sept. - Dec. 2019)
@@ -21,6 +16,12 @@ Home:
       Hardware Designer - Tyco Security Products (May. - Aug. 2017)
       Software Developer Intern - ADP Canada (Aug. - Dec. 2016)
       Software Analyst Intern - Thales Canada (Jan. - Apr. 2016)
+
+  - heading: "Education"
+    text: |
+      Candidate for Ph.D. in Electrical and Computer Engineering - University of British Columbia, Expected Completion in 2025
+      B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (with Dean's Honours List Distinction) - University of Waterloo, 2020
+
 
 Research:
   - heading: "Foci"
@@ -88,4 +89,4 @@ Projects:
 
   - heading: "Personal Website"
     text: |
-      Not one to get left behind (and one who dislikes JavaScript), this website was constructed using Anthropic's Claude Code with very little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without technical background and practice scoping out bite-size tasks, many features would be missing or much harder to achieve, such as directing Claude to use dynamic content loaded from a YAML file for easy future website content updates.
+      Not one to get left behind (and one who dislikes JavaScript), this website was constructed using Anthropic's Claude Code with little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without technical background and practice scoping out bite-size tasks, many features would have been much harder to achieve, such as directing Claude to implement clean dynamic content loading from a YAML file for easy future website content updates.

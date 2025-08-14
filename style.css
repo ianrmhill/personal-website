@@ -221,6 +221,12 @@ li p {
 .mobile-nav a {
 	text-decoration: none;
 	color: inherit;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .mobile-nav a:hover {
@@ -237,6 +243,12 @@ li p {
 	width: 30px;
 	height: 24px;
 	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .mobile-menu-toggle span {
