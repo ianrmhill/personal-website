@@ -20,7 +20,7 @@
 	font-style: normal;
 }
 
-body {
+html, body {
 	margin: 0px;
 	padding: 0px;
 	font-family: "Nirmala UI", Helvetica, sans-sarif;
@@ -221,6 +221,12 @@ li p {
 .mobile-nav a {
 	text-decoration: none;
 	color: inherit;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .mobile-nav a:hover {
@@ -237,13 +243,19 @@ li p {
 	width: 30px;
 	height: 24px;
 	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .mobile-menu-toggle span {
 	display: block;
-	height: 1.5px;
+	height: 0;
 	width: 100%;
-	background-color: rgb(240, 240, 215);
+	border-top: 1.5px solid rgb(240, 240, 215);
 	border-radius: 1px;
 	transition: all 0.3s ease;
 }
@@ -276,7 +288,7 @@ li p {
 }
 
 .mobile-dropdown a:hover {
-	font-weight: 700;
+	color: rgb(180, 120, 80);
 }
 
 .mobile-dropdown a.active {
@@ -287,55 +299,130 @@ li p {
 }
 
 /* Responsive Media Queries */
-@media (max-width: 768px) {
-	.desktop-nav {
-		display: none;
-	}
-	
+@media (max-width: 800px) {
+    .desktop-nav {
+        display: none;
+    }
+
 	.mobile-nav {
 		display: flex;
-	}
-	
-	.footercontent {
-		justify-content: center;
-		gap: 20px;
-	}
-	
-	.social-links-center {
-		display: none;
-	}
-	
-	.footerbar li:last-child {
-		display: none;
-	}
-	
-	.email-contact {
-		justify-content: center;
-		flex: none;
-		order: 1;
-	}
-	
-	.footercontent {
-		justify-content: center;
-		height: 60px;
-		padding: 0 12.5%;
 	}
 	
 	.email-contact-text {
 		display: none;
 	}
+	
+	.email-contact {
+		justify-content: flex-start;
+		flex: 1;
+		order: 0;
+    }
+
+    .footerbar .footercontent {
+	    padding: 0 5%;
+    }
+
+    .footerbar li p {
+	    font-size: 8px;
+    }
+    
+    .footercontent .social-link {
+        padding: 3px;
+    }
+    
+    .footercontent .social-link svg {
+        width: 16px;
+        height: 16px;
+    }
+    
+	
+	/* Reduce content box tilt on mobile for better readability */
+	.full-width-content-box {
+		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%) !important; /* Reduced from 15% to 8% */
+	}
+
+    .full-width-content-box .full-width-inner,
+    .full-width-content-box-alt .full-width-inner {
+        padding: 60px 10px !important;
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+	
+	.full-width-content-box-alt {
+		clip-path: polygon(0 0%, 100% 5%, 100% 95%, 0 100%) !important; /* Reduced from 15% to 8% */
+	}
+	
+	[data-component="full-width-image-only"] {
+		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%) !important; /* Reduced tilt for images too */
+	}
+
+	[data-component="full-width-image-only"]:first-of-type {
+		margin-top: -100px;
+	}
+	
+	/* Fix content box overflow on mobile */
+	.content-media-section {
+		flex: none;
+		width: 100%;
+		max-width: none;
+		min-width: auto;
+	}
+	
+	
 }
+
+/* Medium screen adjustments */
+@media (max-width: 1300px) and (min-width: 800px) {
+	.email-contact-text {
+		display: none;
+	}
+	
+	.footerbar li p {
+		font-size: 12px;
+	}
+	
+	.footercontent .social-link {
+		padding: 10px;
+	}
+	
+	.footercontent .social-link svg {
+		width: 18px;
+		height: 18px;
+	}
+	
+	
+
+	.full-width-content-box {
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%) !important; /* Moderate tilt */
+	}
+	
+	.full-width-content-box-alt {
+		clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0 100%) !important; /* Moderate tilt */
+	}
+	
+	[data-component="full-width-image-only"] {
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%) !important; /* Moderate tilt for images */
+	}
+
+	[data-component="full-width-image-only"]:first-of-type {
+		margin-top: -170px;
+	}
+	
+	
+}
+
 
 .dynamic-background {
 	position: fixed;
-	top: 70px; /* Header height */
-	bottom: 60px; /* Footer height */
+	top: 70px;
 	left: 0;
-	right: 0;
-	z-index: -2;
+	width: 100%;
+	height: calc(100vh - 130px);
+	z-index: -1;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: scroll;
 }
 
 .foreground {
@@ -344,12 +431,6 @@ li p {
 	min-height: 100vh;
 	position: relative;
 }
-
-
-
-
-
-
 
 .footerbar {
 	width: 100%;
@@ -391,19 +472,19 @@ li p {
 
 .footerbar p {
 	color: rgb(240, 240, 215);
-	font-size: 14px;
+	font-size: 0.875em; /* 14px equivalent */
 	font-weight: 500;
-	letter-spacing: 1px;
+	letter-spacing: 0.0625em; /* 1px equivalent */
 	margin: 0;
 	padding: 0;
 }
 
 .social-link {
 	display: inline-block;
-	padding: 12px;
+	padding: 0.75em; /* 12px equivalent */
 	color: rgb(240, 240, 215);
 	transition: color 0.2s ease;
-	border-radius: 6px;
+	border-radius: 0.375em; /* 6px equivalent */
 }
 
 .social-link:hover {
@@ -411,21 +492,21 @@ li p {
 }
 
 .social-link svg {
-	width: 20px;
-	height: 20px;
+	width: 1.25em; /* 20px equivalent */
+	height: 1.25em; /* 20px equivalent */
 	display: block;
 }
 
 .email-contact-text {
 	color: rgb(240, 240, 215);
-	font-size: 14px;
+	font-size: 0.875em; /* 14px equivalent */
 	font-weight: 500;
-	letter-spacing: 1px;
-	margin-right: 8px;
+	letter-spacing: 0.0625em; /* 1px equivalent */
+	margin-right: 0.5em; /* 8px equivalent */
 }
 
 .email-link {
-	margin-left: 8px;
+	margin-left: 0.5em; /* 8px equivalent */
 }
 
 
@@ -555,7 +636,7 @@ h1.floating-title {
 /* Content media section layout */
 .content-media-section {
 	flex: 0 0 33vw;
-	max-width: 400px;
+	max-width: min(66.67vw, 400px); /* 2/3 of page width or 400px, whichever is smaller */
 	min-width: 250px;
 	display: flex;
 	flex-direction: column;
@@ -693,26 +774,9 @@ h1.floating-title {
 	z-index: 1;
 }
 
-
-
 /* Special positioning for first image-only component on home page */
 [data-component="full-width-image-only"]:first-of-type {
 	margin-top: calc(-11vw - 50px);
-}
-
-
-/* Constrain margin-top for very wide screens */
-@media (min-width: 1500px) {
-	[data-component="full-width-image-only"]:first-of-type {
-		margin-top: -170px;
-	}
-}
-
-/* Adjust margin-top for narrow screens */
-@media (max-width: 800px) {
-	[data-component="full-width-image-only"]:first-of-type {
-		margin-top: -100px;
-	}
 }
 
 .full-width-background-image {
@@ -721,5 +785,3 @@ h1.floating-title {
 	object-fit: cover;
 	object-position: center;
 }
-
-
