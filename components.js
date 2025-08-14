@@ -158,12 +158,13 @@ async function loadPage(route) {
         const pageContent = await generatePageContent(siteContent[pageName]);
         contentPlaceholder.innerHTML = pageContent;
         
-        // Set dynamic background image based on page name
+        // Set dynamic background image based on page name using getImagePath
         const backgroundElement = document.getElementById('dynamic-background');
         if (backgroundElement) {
-            // Use the original pageName case to match image files
-            backgroundElement.style.backgroundImage = `url('images/${pageName}.jpg')`;
-            console.log(`Setting background image: images/${pageName}.jpg`);
+            // Use getImagePath to support both jpg and png files
+            const backgroundImagePath = await getImagePath(pageName);
+            backgroundElement.style.backgroundImage = `url('${backgroundImagePath}')`;
+            console.log(`Setting background image: ${backgroundImagePath}`);
         }
     } catch (error) {
         console.error('Error generating page content:', error);
