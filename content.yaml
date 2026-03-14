@@ -3,12 +3,12 @@ Home:
 
   - heading: "Personal Summary"
     text: |
-      Ian Hill is a PhD candidate in Electrical and Computer Engineering at the University of British Columbia, specializing in the long-term reliability of semiconductors. He lives in Vancouver, British Columbia.
-      Ian is currently starting his search for full-time employment in expectation of completing his degree in the next few months, and is open to a wide variety of different directions to bring his talents to real-world application. If you are looking to fill an industrial research position requiring cross-domain technical expertise and strong communication skills, he may be just who you are looking for. View Ian's CV and contact him via email or LinkedIn.
+      Dr. Ian Hill is a specialist in semiconductor reliability engineering, holding a Ph.D. in Electrical and Computer Engineering from the University of British Columbia alongside a B.A.Sc. in Electrical Engineering from the University of Waterloo. He currently lives in San Jose, California. View Ian's CV and don't be afraid to reach out to him via email for questions and/or discussions around his research, professional career, and interests.
     image: "TurnedHeadshot"
 
-  - heading: "Industrial Experience"
+  - heading: "Experience"
     text: |
+      Datacenter Resiliency Architect - NVIDIA Corporation (Mar. 2026 - Present)
       Engineering Capstone Teaching Assistant - University of British Columbia (Sept. 2020 - Apr. 2025)
       Silicon Verification Intern - Microsoft (Sept. - Dec. 2019)
       ASIC Design Intern - NVIDIA Corporation (Sept. - Dec. 2018)
@@ -19,21 +19,20 @@ Home:
 
   - heading: "Education"
     text: |
-      Candidate for Ph.D. in Electrical and Computer Engineering - University of British Columbia, Expected Completion in 2025
+      Ph.D. in Electrical and Computer Engineering - University of British Columbia, 2025
       B.A.Sc. in Honours Electrical Engineering / Management Sciences Option (with Dean's Honours List Distinction) - University of Waterloo, 2020
-
 
 Research:
   - heading: "Foci"
     text: |
-        Ian's research is broadly focused on applications of computational statistics in hardware engineering:
+        Ian's research focus is broadly in the application of computational statistics to semiconductor reliability and hardware engineering:
         **Semiconductor Reliability** - On-chip sensors, uncertainty-aware prediction, accelerated life test optimization
         **Bayesian Experimental Design** - Engineering risk and cost considerations, novel applications
-        **Probabilistic Programming** - Generative modelling, software useability, uncertainty quantification
     image: "ProbEM"
 
   - heading: "Selected Publications"
     text: |
+        I. Hill, F. Wood, and A. Ivanov, “Computational Bayesian Experimental Design and Inference for Assisted Linear Circuit Prototype Debug,” in IEEE Access, vol. 14, pp. 31241-31253, 2026.
         I. Hill and A. Ivanov, “Multilevel variability and epistemic uncertainty analysis of reliability physics models through hierarchical probabilistic modelling,” in 2025 IEEE International Reliability Physics Symposium (IRPS), 2025, pp. 1–6.
         I. Hill, M. Rendón, and A. Ivanov, “Enhanced wear-out sensor design in a 12nm process for separable stress regime monitoring,” in 2024 IEEE 42nd VLSI Test Symposium (VTS), 2024, pp. 1–7.
         I. Hill, M. Rendón, and A. Ivanov, “A novel induced offset voltage sensor for separable wear-out mechanism characterization in a 12nm FinFET process,” in 2024 IEEE International Reliability Physics Symposium (IRPS), 2024, pp. 8A.4–1–8A.4–9.
@@ -77,7 +76,7 @@ Music:
 Projects:
   - heading: "Custom 12nm FinFET Chip Design"
     text: |
-        As part of his PhD dissertation, Ian implemented custom on-chip sensors for monitoring semiconductor aging in a 12nm FinFET fabrication process. The design of this chip took six months in total to learn FinFET layout techniques, implement the sensors and perform physically-aware simulations of the designs, route all the interconnects for the chip, put together the pad ring, and verify the full design against electrical and design rules. The finished design contains several different sensor types alongside all the control and read-out logic and multiplexing required to interface with various sensor instances. After the chips were fabricated and tested, accelerated life tests on the chips were conducted to demonstrate that the sensor designs were functional and realizable. 
+        As part of his PhD dissertation, Ian implemented custom on-chip sensors for monitoring semiconductor aging in a 12nm FinFET fabrication process. The design of this chip took six months in total to learn FinFET layout techniques, implement the sensors and perform physically-aware simulations of the designs, route all the interconnects for the chip, put together the pad ring, and verify the full design against electrical and design rules. The finished design contains several different sensor types alongside all the control and read-out logic and multiplexing required to interface with various sensor instances. After the chips were fabricated and tested, accelerated life tests on the chips were conducted to demonstrate that the sensor designs were functional and effective in provide fine-grained data on the progression of aging in semiconductor devices. 
     image: "CustomChip"
 
   - heading: "Home Bartending"
@@ -89,4 +88,4 @@ Projects:
 
   - heading: "Personal Website"
     text: |
-      Not one to get left behind (and one who dislikes JavaScript), this website was constructed using Anthropic's Claude Code with little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without technical background and practice scoping out bite-size tasks, many features would have been much harder to achieve, such as directing Claude to implement clean dynamic content loading from a YAML file for easy future website content updates.
+      Not one to get left behind (and one who dislikes JavaScript), this website was constructed in August of 2025 using Anthropic's Claude Code with little manual intervention. Starting with a raw HTML + CSS template he built back in 2016, Ian leveraged generative AI to build out the features and design of this site. Software engineering experience was highly valuable in helping point Claude in the right directions for efficient structure, implementation, and bug fixes. Without technical background and practice scoping out bite-size tasks, many features would have been much harder to achieve, such as directing Claude to implement clean dynamic content loading from a YAML file for easy future website content updates.
