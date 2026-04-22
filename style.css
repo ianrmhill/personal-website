@@ -137,6 +137,19 @@ a:visited {
 	color: rgb(200, 140, 100);
 }
 
+/* UBC Library external links styling */
+.content-text-section a[href*="open.library.ubc.ca"],
+.floating-text a[href*="open.library.ubc.ca"] {
+	color: rgb(180, 120, 80);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.content-text-section a[href*="open.library.ubc.ca"]:hover,
+.floating-text a[href*="open.library.ubc.ca"]:hover {
+	color: rgb(200, 140, 100);
+}
+
 
 .headbar li:first-child {
 	margin-right: auto;

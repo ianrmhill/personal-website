@@ -267,6 +267,9 @@ function generateContentText(item) {
         // Convert "CV" to downloadable link
         processedText = processedText.replace(/\bCV\b/g, '<a href="artifacts/CV.pdf" target="_blank" download>CV</a>');
         
+        // Link to UBC library for dissertation download
+        processedText = processedText.replace(/\bUBC Library\b/g, '<a href="https://open.library.ubc.ca/media/stream/pdf/24/1.0450439/4" target="_blank">UBC Library</a>');
+
         // Convert "ORCID" to external link
         processedText = processedText.replace(/\bORCID\b/g, '<a href="https://orcid.org/0000-0001-9782-8522" target="_blank">ORCID</a>');
         

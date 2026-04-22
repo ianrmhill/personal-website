@@ -44,6 +44,7 @@ Research:
     text: |
       While semiconductors are increasingly used to control safety-critical systems, transistors are shrinking to where single atom defects significantly affect aging. Current industrial and research methods for evaluating reliability are not rigorous enough in quantifying the uncertainty of predictions or modelling complex sources of variability, risking un-expected aging-induced failures in critical next-generation products. This research introduces several on-chip aging sensors that track the progression of different transistor defect formation physics, a probabilistic physics modelling framework that carefully incorporates uncertainty and variability, and an experimental design approach to optimize accelerated stress tests to meet rigorous reliability requirements with consideration for engineering costs and risks. Custom semiconductor chips and sophisticated probabilistic programming techniques are used to implement the research contributions, which are then validated through tests and detailed case studies. These contributions represent key components towards a comprehensive qualification strategy for ensuring safe long-term operation of atomic-scale transistors in critical applications.
         Supervised by Dr. André Ivanov
+        Available through UBC Library
 
 Music:
   - text: |
@@ -72,6 +73,21 @@ Music:
       Some short-form videos can be found on Ian's Instagram along with a few full playthrough videos on his Youtube channel, which show not just how the guitar sounds but also how the passages are played. New little compositions and covers are added over time!
     image: "ElectricGuitar"
     audio: "Intertidal"
+
+  - heading: "Listening Suggestions"
+    text: |
+      Here are a select few of Ian's all-time favourite albums, you might find something new you like!
+        Becca Stevens and Elan Mehler - Pallet on Your Floor
+        Busty and the Bass - Forever Never Cares
+        Charles Mingus - The Black Saint And The Sinner Lady
+        Floating Points - Elaenia
+        Hiatus Kaiyote - Live in Revolt EP
+        Magdalena Bay - Imaginal Disk
+        Melody Gardot - Currency of Man (The Artist's Cut)
+        Men I Trust - Oncle Jazz
+        Psychedelic Porn Crumpets - SHYGA! The Sunlight Mound
+        Thad Jones - Live at the Village Vanguard
+ 
 
 Projects:
   - heading: "Custom 12nm FinFET Chip Design"
