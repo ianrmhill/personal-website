@@ -50,6 +50,12 @@ Music:
   - text: |
       As a hobbyist musician, finding time for what you love can be a challenge, and finding the energy to actually record and distribute that music is an even greater challenge. Ian has been playing music since the age of six, starting with the classical guitar, but only began working significantly on musical production in 2020.
 
+  - heading: "A Presence"
+    text: |
+      Pre-release single for Obido is out now! An ambient album inspired by beach sunsets, dusky summer skies, opulent estates, and ominous breezes, Obido will bring classical guitar to a unique ambient setting. A Presence is likely the most cinematic of the tracks, gradually setting the stage for and then presenting two guitar passages inspired by the grand romantic masterpiece Un Sueño en la Floresta by Agustín Barrios Mangoré. The first passage is completely exposed while the second is lifted by the supporting strings and synthesizers before leading the listener out towards an unknown space that will have to wait until the full album releases on July 31st!
+    image: "PresenceCover"
+    spotify: "https://open.spotify.com/embed/track/2GLykwnySvwbwpie6do7pc?utm_source=generator&si=c6f8746b376f48b8"
+
   - heading: "Doubt"
     text: |
        Ian's first foray into modern production and pop-style music represents a major milestone in his musician's journey. The track is all Ian's work, from lyrics to composition to instruments to singing to production to mix and then master, and it was all done in his bedroom. This snapshot of his musical progress has lots going on for listeners to find including bass harmonics, subtle guitar harmonies, and a happy cat. "Doubt" is the first but certainly not the last, with other compositions in the works that should get better and better as his experience grows. More to come in the future, hope you enjoy listening!
@@ -61,12 +67,6 @@ Music:
       This album is a one-man COVID lockdown adventure into microphone placement, careful listening, and frustrating takes. The result is an authentic 40 minutes of classical guitar repertoire performed in a living room. No church acoustics, virtually no audio processing, and all the imperfections of live performance and home recording. Ian plays a Steve Ganz guitar and recorded the album with a stereo pair of Rode M5 microphones.
     image: "HobbiesCover"
     spotify: "https://open.spotify.com/embed/track/5Sj8QPRHevw2feoO52yvq4?utm_source=generator"
-
-  - heading: "Obido"
-    text: |
-      An in-progress ambient album inspired by beach sunsets, dusky summer skies, opulent estates, and ominous breezes. Obido will bring classical guitar to a unique setting. A sketch of the overall composition is complete, but lots of effort remains to bring this album to life.
-    image: "PortoSunset"
-    audio: "ObidoSnippet"
 
   - heading: "Tidbits"
     text: |
